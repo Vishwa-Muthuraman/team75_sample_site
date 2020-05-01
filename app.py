@@ -21,6 +21,19 @@ def index():
 def about_us():
     return render_template("about_us.html")
 
+
+@app.route("/manasi")
+def manasi():
+    return render_template("manasi.html")
+
+@app.route("/ian")
+def ian(): 
+    return render_template("ian.html")
+
+@app.route("/nihal")
+def nihal():
+    return render_template("nihal.html")
+
 if __name__ == '__main__':
     #db.create_all() # - unsupress when we connect to RDBMS
     app.run(debug=True)
