@@ -1,13 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="container">
-    <div class="jumbotron">
-      <h1>Productivity Points</h1>      
-      <p>Use the form below to input productivity points after each completed deliverable.</p>
-      <p>For information and guidelines for productivity points, click here: </p>
-      <a class="btn btn-primary btn-lg" href="/about_us" role="button">Learn more</a>
-    </div>      
+<div class="jumbotron">
+    <h1>Productivity Points</h1>      
+    <p>Use the form below to input productivity points after each completed deliverable.</p>
+    <p>For information and guidelines on productivity points, click here: </p>
+    <a class="btn btn-primary btn-lg" href="/about_us" role="button">Learn more</a>
+         
 </div>
 
 <form>
@@ -29,6 +28,63 @@
         </div>
     </div>
     <button type="submit" class="btn btn-primary">Continue</button>
+
+    
+
+    <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+    </div>
+
+    <div class="form-group">
+        
+            <label for="exampleFormControlInput1"> Student Email Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="form-group">
+            <label for="quantity">Student ID</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="100">
+    </div>
+      
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Deliverable 1</option>
+          <option>Deliverable 2</option>
+          <option>Deliverable 3</option>
+          <option>Deliverable 4</option>
+          <option>Deliverable 5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="quantity">Total points earned</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
+    </div>
+    <div class="form-group">
+        <label for="quantity">Total possible points</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
+    </div>
+
+
+
+
+      
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Member Performance Decription </label>
+        <p>Please elaborate on the student's behavior/cooperation/respectfulness/timeliness when completing the deliverable.</p>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+      </div>
+
+
+
+
   </form>
+
+
 
 {% endblock %}
