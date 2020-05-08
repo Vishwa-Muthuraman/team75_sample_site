@@ -1,6 +1,123 @@
 {% extends "base.html" %}
+
 {% block content %}
 
-<h1>Nihal</h1>
+
+
+<div class="jumbotron" style="background-color:black;">
+
+    <h1 class="display-4" style = "color: red">Nihal's Outreach Form</h1>
+
+    <p class="lead" style = "color: white">Enter All of Your Outreach Hours Here!</p>
+
+    <hr class="my-4">
+
+    <p style = "color: white">To see how your outreach hours impact your attendance, click here:</p>
+
+    <script>
+
+        function showAlert(msg)
+
+        {
+
+            alert(msg);
+
+        }
+
+    </script>
+
+    <a class="btn btn-primary btn-lg" href="#" role ="button" button onclick = 'showAlert("Under Construction!")'>Learn more</a>
+
+    <br>
+
+    <br>
+
+
+
+    <div class="input-group flex-nowrap">
+
+        <div class="input-group-prepend">
+
+          <span class="input-group-text" id="addon-wrapping">Name:</span>
+
+        </div>
+
+        <input type="text" class="form-control" placeholder="Robo Raider" aria-label="Robo Raider" aria-describedby="addon-wrapping">
+
+    </div>
+
+    <br>
+
+
+
+    <div class="input-group flex-nowrap">
+
+    <div class="input-group-prepend">
+
+        <span class="input-group-text" id="addon-wrapping">Email:</span>
+
+    </div>
+
+    <input type="text" class="form-control" placeholder="username@example.com" aria-label="username@example.com" aria-describedby="addon-wrapping">
+
+    </div>
+
+    <br>
+
+
+
+    <div class="input-group flex-nowrap">
+
+        <div class="input-group-prepend">
+
+            <span class="input-group-text" id="addon-wrapping">Student ID:</span>
+
+        </div>
+
+        <input type="text" class="form-control" placeholder="123456" aria-label="123456" aria-describedby="addon-wrapping">
+
+    </div>
+
+    <br>
+
+
+
+    <div class="input-group flex-nowrap">
+
+        <div class="input-group-prepend">
+
+            <span class="input-group-text" id="addon-wrapping">Hours Worked:</span>
+
+        </div>
+
+        <input type="text" class="form-control" placeholder="Enter Your Hours Here" aria-label="Enter Your Hours Here" aria-describedby="addon-wrapping">
+
+    </div>
+
+    <br>
+
+
+
+    <div class="input-group flex-nowrap">
+
+        <div class="input-group-prepend">
+
+            <span class="input-group-text" id="addon-wrapping">Hours Worked:</span>
+
+        </div>
+
+        <input type="text" class="form-control" placeholder="Enter Your Hours Here" aria-label="Enter Your Hours Here" aria-describedby="addon-wrapping">
+
+    </div>
+
+    <p><center style = "color: red">Provide Brief Description of Completed Outreach Here:</center></p>
+
+    <textarea type="text" class="form-control" placeholder="Enter Description" aria-label="Enter Description" aria-describedby="addon-wrapping"></textarea>
+
+   <br>
+
+    <center><a class="btn btn-primary btn-lg" href="#" role ="button" button onclick = 'showAlert("Under Construction!")'>Submit</a></center>
+
+</div>
 
 {% endblock %}
