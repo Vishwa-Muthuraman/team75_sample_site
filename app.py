@@ -16,6 +16,9 @@ app.config["DEBUG"] = True
 def index():
     return render_template("index.html")
 
+@app.route("/Good_Standing")
+def Good_Standing():
+    return render_template("Good_Standing.html")
 
 @app.route("/about_us")
 def about_us():
