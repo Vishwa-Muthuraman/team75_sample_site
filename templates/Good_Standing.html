@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">What Makes a Member in Good Standing?</h1>
+    <p class="lead">Below you will find the requirements to be considered a member in good standing</p>
+    <p class="lead">If you are looking to obtain your outreach hours reach out to the Outreach VP at: reddys@htps.us </p>
+    <p class="lead">These details can also be found in the student handbook linked here:</p>
+    <a class="btn btn-primary btn-lg" href=https://docs.google.com/document/d/170XR95cpyFkSps6pdsXP_D-EmHDAbmG0DRBCNFiZ4_k/edit role="button">Student Handbook</a>
+    <hr class="my-4">
+</div>
+<h3>The following are the building blocks for a member in good standing click to see more about each one:</h3>
+<center>  <p>
+
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#attendance" aria-expanded="false" aria-controls="collapseExample">
+          Attendance
+        </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#outreach" aria-expanded="false" aria-controls="collapseExample">
+          Service/Outreach
+        </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#productivity" aria-expanded="false" aria-controls="collapseExample">
+            Productivity
+          </button>
+      </p></center>
+
+      <div class="collapse" id="attendance">
+        <div class="card card-body">
+            Section 10.1.B.1: Student Participation: Students who do not hold a leadership position must have a meeting attendance rate of 80% (when excused absences are excluded) and 70% (when excused absences are included) throughout the school year until the new leadership takes effect. From when new leadership takes effect until the start of the school year, students must have a meeting attendance rate of 70% (when excused absences are excluded) and 60% (when excused absences are included). 
+                <div>
+        Section 1.1.B.2: Participation of all students in elected/appointed positions: Students who hold any elected or appointed position must have a meeting attendance rate of 85% including excused absences. From when new leadership takes effect until the start of the school year, students must have a meeting attendance rate of 75% (when excused absences are included). 
+    </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="outreach">
+        <div class="card card-body">
+            Section 1.1.C: Outreach Requirement: All RoboRaiders should be active members of outreach initiatives. In order to be an active member, a returning RoboRaider must participate for a minimum of 25 hours of nonmandatory outreach, throughout the school year and summer, by one month prior to the start of Build Season. A new RoboRaider, must participate for a minimum number of hours calculated by: # of months between joining the team to one month prior to the start of Build Season *2. This hour requirement can be fulfilled anytime throughout the time period indicated (this just pertains to freshmen, sophomores, and juniors). However, seniors must complete at least 10 hours from one month before Kickoff till the new leadership takes effect. This outreach requirement also includes active involvement in planning or implementing an outreach program, in addition to in-person volunteering. 
+
+            Members who play key roles during Build Season can be excused from fulfilling the outreach requirement if they are needed in high-priority team responsibilities. Key roles include, but are not limited to, Drive Team, Chairman’s Presenters, and those working directly on the robot outside warehouse hours. The President, Mentor Leadership, and Faculty Advisors must approve of all members seeking an excused status. However, excused members must fulfill an average of two hours per month excluding Build Season. 
+            
+        </div>
+      </div>
+      <div class="collapse" id="productivity">
+        <div class="card card-body">
+            Section 1.1.D: Productivity at Meetings Expectation: All RoboRaiders are expected to participate productively at team meetings. Students who do not hold leadership positions must maintain an average of at least an 85% on their completed deliverables. Students who hold leadership positions must maintain an average of at least a 90% on their completed deliverables. Subteam managers who receive 3 warnings are eligible for dismissal. 
+
+        </div>
+      </div>
+ 
+{% endblock %}
