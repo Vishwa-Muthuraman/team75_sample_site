@@ -24,6 +24,9 @@ def Good_Standing():
 def about_us():
     return render_template("about_us.html")
 
+@app.route("/hours")
+def hours():
+    return render_template("hours.html")
 
 @app.route("/manasi")
 def manasi():
