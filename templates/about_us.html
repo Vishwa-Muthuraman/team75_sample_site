@@ -1,152 +1,41 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="jumbotron">
+        <h1 class="display-4">Outreach Hour Submission Form</h1>
+        <p class="lead">Answer the following questions then click submit to add the hours to your log.</p>
+        <hr class="my-4">
+        <p>If you are unsure as to what may be considered outreach or have any other concern click here:</p>
+        <a class="btn btn-primary btn-lg" href="/Good_Standing" role="button">Learn more</a>
 
-<!-- <div class="jumbotron">
-    <h1>What Counts as Hours? How Can You Count Them?</h1>
-</div>
-
-<div>
-    <h1>How Can I Get Hours?</h1>
-    <p><center>
-        In order to be counted, all outreach hours must be submitted as you complete them, within 7 days<br>
-        of the end of the event, to our outreach website. If legitimate, your hours will be approved by<br>
-        the Outreach Vice President and a mentor of Mentor Leadership.
-    </center></p>
-
-        <center><p>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#volunteering" aria-expanded="false" aria-controls="collapseExample">
-            Volunteering events (including, but not limited to):
-            </button>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#offsiteOutreach" aria-expanded="false" aria-controls="collapseExample">
-            Year-round offsite outreach:
-            </button>
-        </center></p>
-
-        <div class = collapse id = "volunteering"><div class="card card-body">
-            <p><center>
-                The following volunteering events, which are subject to change, are those we attend year-round.<br>
-                Listed next to each event is its approximate month, the potential number of hours you can earn<br>
-                for your volunteering, and the approximate number of students who will be chosen to volunteer.<br>
-                Please keep in mind that each event may span more than one day.
-            </center></p>
-                <ol>
-                    <li>Feed my Starving Children (January, 3 hours, 7 students)</li>
-                    <li>ARIS STEM Summit (February, 4 hours, 11 students)</li>
-                    <li>Triangle School Science Fair (February, 3 hours, 15 students)</li>
-                    <li>Woods Road School Science Fair (March, 2 hours, 10 students)</li>
-                    <li>HES Science Fair (March, 2 hours, 10 students)</li>
-                    <li>Amsterdam School Science Fair (April, 3 hours, 10 students)</li>
-                    <li>Relay for Life (April, 3+ hours, 7 students) </li>
-                    <li>Take Your Child To Work Day (April, 7 hours, 8 students) </li>
-                    <li>Exploration Fair (June, 4 hours, 20 students) </li>
-                    <li>Summer Enrichment (June; over 10 days, 3 hours/day, 10 students)</li>
-                    <li>4H Fair (August; over 3 days, 3 hours/day, 8 students/day)</li>
-                    <li>Rotary Fair (August; over 5 days, 5 hours/day, 10 students/day)</li>
-                    <li>Steeplechase Run (September, 5 hours, 5 students) </li>
-                    <li>Barnes and Noble (Nov-Dec; over 4 events, 5 hours/event, 3 students)</li>
-                </ol>
-            </div>
-        </div>
-
-        <div class = collapse id = "offsiteOutreach"><div class="card card-body">
-            <p><center>
-                This list contains the number of hours you can earn for outreach that is non-event volunteering.<br>
-                Each hour count next to the outreach is the exact number of hours you will earn for completing<br>
-                the task (no more, no less). Your work must be placed into the respective folder in the team<br>
-                drive for Executive Leadership to approve.
-            </center></p>
-                <ol>
-                    <li>Virtual mentoring writing one script (1 hour)</li>
-                    <li>Virtual mentoring filming one video (1.5 hours)</li>
-                    <li>WISE-in-a-Box video writing one script (1 hour)</li>
-                    <li>WISE-in-a-Box filming one video (1.5 hours)</li>
-                    <li>BoroBlast referee kit building (5 hours)</li>
-                    <li>Mentoring a FIRST team (may vary; hours must be approved by the Team Coach)</li>
-                    <li>Other outreach planning (may vary; hours will be set by the lead and Outreach Vice President)</li>
-                    <li> BoroBlast referee attending FLL events for training (may vary; hours must be approved by Adult Lead of BoroBlast Referees)</li>
-                </ol>
-            </div>
-        </div>
-</div>
-
-<br>
-<div>
-    <h2>How Can I Count My Hours?</h2>
+<form>
     <center>
-    <p>
-        In order to record your hours, each member will have to fill out the designated attendance sheet for a volunteering event.
-        <br>More information as well as a template of the attendance sheet can be found here:
-    </p>
-    <a class="btn btn-primary btn-lg" href=https://docs.google.com/document/d/1nt5HYFtKPItSk2XPqo7jYOJvuOrfVBpuaxDOBGp5vis/edit?usp=sharing role="button">
-        Attendance Sheet
-    </a>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Student ID</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Hours Worked</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1">
+  </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect2">What kind of Outreach was this for?</label>
+      <select multiple class="form-control" id="exampleFormControlSelect2">
+        <option>Wise</option>
+        <option>WiSTEM2D</option>
+        <option>Demos</option>
+        <option>FIRST</option>
+        <option>Service</option>
+        <option>Precious Plastic</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Brief description of work completed</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="popover" title="Thank you!!" data-content="Once, I actually know how to code, this will do something, but for now, Good Job!">Submit</button>
+  
     </center>
-</div> -->
-
-<div class="jumbotron">
-    <h1>About Us</h1>
-</div>
-
-<div class="jumbotron">
-    <h1 class="display-4">Team 75 Vision</h1>
-    <p class="lead">Our vision as Team 75, The RoboRaiders, is to succeed by building and supporting technology, bringing opportunities to others to pursue technology, and creating personal connections that support and are recognized by FIRST, our School, our Community, and the World. </p>
-    <hr class="my-4">
-    <p>Contribute to our team's vision by getting involved in our outreach program and team projects.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Log in your hours</a>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Log in your points</a>
-    </p>
-  </div>
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="https://imagizer.imageshack.com/img923/3650/hmybum.png" alt="Virtual WISE">
-    </div>
-
-    <div class="item">
-      <img src="https://imagizer.imageshack.com/img923/1162/RIWzby.png" alt="Robot Demo, Nihal">
-    </div>
-
-    <div class="item">
-      <img src="https://imagizer.imageshack.com/img922/5190/3jz1K8.png" alt="STEM kits">
-    </div>
-
-    <div class="item">
-        <img src="https://imagizer.imageshack.com/img923/1307/azuJIw.jpg" alt="mentorship">
-    </div>
-
-    <div class="item">
-        <img src="https://imagizer.imageshack.com/img924/5817/FGGIjk.jpg" alt="mentorship">
-    </div>
-
-    <div class="item">
-        <img src="https://imagizer.imageshack.com/img923/6650/S3WNbn.png" alt="robot demonstration">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-
-
-
+  </form>
+ 
 {% endblock %}

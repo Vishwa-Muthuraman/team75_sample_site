@@ -28,6 +28,10 @@ def about_us():
 def hours():
     return render_template("hours.html")
 
+@app.route("/View_Hours")
+def View_hours():
+    return render_template("View_Hours.html")
+
 @app.route("/manasi")
 def manasi():
     return render_template("manasi.html")
