@@ -32,6 +32,10 @@ def hours():
 def View_hours():
     return render_template("View_Hours.html")
 
+@app.route("/User_View")
+def User_View():
+    return render_template("User_View.html")
+
 @app.route("/manasi")
 def manasi():
     return render_template("manasi.html")
