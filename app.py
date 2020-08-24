@@ -12,6 +12,11 @@ app.config["DEBUG"] = True
 # # create engine
 # engine = create_engine("postgresql://postgres:postgres@localhost/__NAME-HERE__")
 
+
+# And define table/class
+# let's do this by Friday August 28
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
