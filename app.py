@@ -16,11 +16,21 @@ app.config["DEBUG"] = True
 def index():
     return render_template("index.html")
 
+@app.route("/Good_Standing")
+def Good_Standing():
+    return render_template("Good_Standing.html")
 
 @app.route("/about_us")
 def about_us():
     return render_template("about_us.html")
 
+@app.route("/hours")
+def hours():
+    return render_template("hours.html")
+
+@app.route("/View_Hours")
+def View_hours():
+    return render_template("View_Hours.html")
 
 @app.route("/manasi")
 def manasi():

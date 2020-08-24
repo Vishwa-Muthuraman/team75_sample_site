@@ -1,5 +1,56 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="jumbotron">
+        <h1 class="display-4">Ian's Outreach Form</h1>
+        <p class="lead">Answer the following questions then click submit to add the hours to your log.</p>
+        <hr class="my-4">
+        <p>If you are unsure as to what may be considered outreach or have any other concern click here:</p>
+        <a class="btn btn-primary btn-lg" href="/about_us" role="button">Learn more</a>
 
-<h1>Ian</h1>
+<form>
+    <center>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Student ID</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Hours Worked</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect2">What kind of Outreach was this for?</label>
+      <select multiple class="form-control" id="exampleFormControlSelect2">
+        <option>Wise</option>
+        <option>WiSTEM2D</option>
+        <option>Demos</option>
+        <option>FIRST</option>
+        <option>Service</option>
+        <option>Precious Plastic</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Brief description of work completed</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="popover" title="Thank you!!" data-content="Once, I actually know how to code, this will do something, but for now, Good Job!">Submit</button>
+  
+    </center>
+  </form>
+ 
 {% endblock %}
