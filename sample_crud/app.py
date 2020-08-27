@@ -58,21 +58,21 @@ class Student(db.Model):
         return f"Student {self.name} is {self.age} year/s old"
 
 
-class Hours(db.Model):
-    # fill in columns you want and initialize them in the __init__
+# class Hours(db.Model):
+#     # fill in columns you want and initialize them in the __init__
     
-    # s_fk = pull FK from Students (s_id)
+#     # s_fk = pull FK from Students (s_id)
 
-    # id => primary key for Hours table
+#     # id => primary key for Hours table
 
-    # event db.Column(db.Text)
-    # hours db.Column(db.Integer) -> data types, how are the numbers coming in from UI??
+#     # event db.Column(db.Text)
+#     # hours db.Column(db.Integer) -> data types, how are the numbers coming in from UI??
 
 
     
     
-    def __init__(self):
-        #asdf
+#     def __init__(self):
+#         #asdf
     
 
 

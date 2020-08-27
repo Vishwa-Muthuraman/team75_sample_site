@@ -1,16 +1,21 @@
 from flask import Flask, request, jsonify, render_template
+from flask_sqlalchemy import SQLAlchemy
+import os
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
 
 # # config app
-# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/__NAME-HERE__"
+# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
+basedir = os.path.abspath(os.path.dirname(__file__))
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'data.sqlite')
+
 
 # # connect to SQLAlchemy
-# db = SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 # # create engine
-# engine = create_engine("postgresql://postgres:postgres@localhost/__NAME-HERE__")
+# engine = create_engine("postgresql://postgres:postgres@localhost/Students")
 
 
 # And define table/class
