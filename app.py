@@ -19,6 +19,32 @@ db = SQLAlchemy(app)
 
 
 # And define table/class
+class Student(db.Model):
+
+    # manually chose what table name is. if we do not include, SQLAlchemy provides one
+    __tablename__ = 'Students'
+
+    # create database columns
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.Text)
+    graduation_year = db.Column(db.Integer)
+    outreach_type = db.Column(db.Text)
+    number_of_hours = db.Column(db.Integer)
+    description = db.Column(db.Text)
+
+
+    # define initializers
+    def __init__(self, id, name, graduation_year, outreach_type, number_of_hours, description):
+        self.id = id
+        self.name = name
+        self.graduation_year = graduation_year
+        self.outreach_type = outreach_type
+        self.number_of_hours = number_of_hours
+        self.description = description
+
+    # def __repr__(self):
+    #     # define string representation of table
+    #     return f"Student {self.name} is {self.age} year/s old"
 # let's do this by Friday August 28
 
 

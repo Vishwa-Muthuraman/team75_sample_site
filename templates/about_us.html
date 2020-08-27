@@ -10,29 +10,43 @@
 <form>
     <center>
 
-    <div class="form-group">
+      <div class="form-group">
         <label for="exampleFormControlInput1">Student ID</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456">
+        <input type="email" class="form-control" id="id" placeholder="000000">
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="email" class="form-control" id="name" placeholder="John Smith">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Graduation Year</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+    </div> -->
+
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">What kind of Outreach was this for?</label>
+        <select multiple class="form-control" id="outreach">
+          <option>Wise</option>
+          <option>WiSTEM2D</option>
+          <option>Demos</option>
+          <option>FIRST</option>
+          <option>Service</option>
+          <option>Precious Plastic</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Hours Worked</label>
+        <input type="email" class="form-control" id="hours" placeholder="00">
     </div>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Hours Worked</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1">
-  </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect2">What kind of Outreach was this for?</label>
-      <select multiple class="form-control" id="exampleFormControlSelect2">
-        <option>Wise</option>
-        <option>WiSTEM2D</option>
-        <option>Demos</option>
-        <option>FIRST</option>
-        <option>Service</option>
-        <option>Precious Plastic</option>
-      </select>
-    </div>
+
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Brief description of work completed</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control" id="description" rows="3"></textarea>
     </div>
+
     <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="popover" title="Thank you!!" data-content="Once, I actually know how to code, this will do something, but for now, Good Job!">Submit</button>
   
     </center>
