@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+        <h1 class="display-4">Sign Up Form</h1>
+        <p class="lead">Answer the following questions and click submit to sign up!</p>
+        <!-- <hr class="my-4">
+        <p>If you are unsure as to what may be considered outreach or have any other concern click here:</p>
+        <a class="btn btn-primary btn-lg" href="/Good_Standing" role="button">Learn more</a> -->
+
+<form>
+    <center>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Student ID</label>
+        <input type="email" class="form-control" id="id" placeholder="000000">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="email" class="form-control" id="name" placeholder="John Smith">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="name" placeholder="example@htps.us">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Graduation Year</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="exampleFormControlSelect2">What kind of Outreach was this for?</label>
+        <select multiple class="form-control" id="outreach">
+          <option>Wise</option>
+          <option>WiSTEM2D</option>
+          <option>Demos</option>
+          <option>FIRST</option>
+          <option>Service</option>
+          <option>Precious Plastic</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Hours Worked</label>
+        <input type="email" class="form-control" id="hours" placeholder="00">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Brief description of work completed</label>
+      <textarea class="form-control" id="description" rows="3"></textarea>
+    </div> -->
+
+    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="popover" title="Thank you!!" data-content="Once, I actually know how to code, this will do something, but for now, Good Job!">Submit</button>
+  
+    </center>
+  </form>
+ 
+{% endblock %}
