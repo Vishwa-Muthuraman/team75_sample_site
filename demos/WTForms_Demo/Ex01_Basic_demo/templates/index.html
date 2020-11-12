@@ -1,0 +1,24 @@
+<p>
+{%if breed %}
+The breed you entered is {{ breed }}
+
+Update it in the form below
+
+{% else %}
+Please enter your breed
+
+{% endif %}
+
+</p>
+
+<form method="POST">
+    <!-- inheritted method from FlaskForm that controls security -->
+    {{ form.hidden_tag() }}
+    <!-- Grab label from string field and execute string field box in HTML -->
+    <!-- Style with class by calling .breed(class='css-class') -->
+    {{ form.breed.label }} {{ form.breed() }}
+    <br>
+    <!-- Render submit button -->
+    {{ form.submit() }}
+
+</form>
