@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h2>Please add a task: </h2>
+
+<form action='/add' method="POST">
+    {{ form.hidden_tag() }}
+
+    {{ form.title.label }} {{ form.title() }}
+    <br>
+    {{ form.submit() }}
+</form>
+
+{% if title %}
+    <h3>{title}</h3>
+{% endif %}
+
+
+{% endblock %}
