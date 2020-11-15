@@ -1,6 +1,12 @@
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 import os
+from flask import Flask, render_template, session, redirect, url_for
+from flask_wtf import FlaskForm
+from wtforms import (StringField, BooleanField, DateTimeField, RadioField,
+                     SelectField, TextField, TextAreaField, SubmitField)
+# Flask validators allow you to check what data is being submitted
+from wtforms.validators import DataRequired
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -87,6 +93,34 @@ def ian():
 @app.route("/nihal")
 def nihal():
     return render_template("nihal.html")
+
+class InfoForm(FlaskForm):
+    # create attributes
+    hours = StringField('How many hours did you spend?', validators=[DataRequired()])
+    Type = BooleanField('Virtual or in person?')
+    event = RadioField('Select which event you attended',
+                      choices=[('event_one', 'WISE'), ('event_two', 'Food Drive')])
+    feedback = TextAreaField()
+    submit = SubmitField('Submit')
+
+
+@app.route('/sign_up', methods=['GET','POST'])
+def index():
+    form = InfoForm()
+
+    if form.validate_on_submit():
+        # update session object
+        session['hours'] = form.hours.data
+        session['Type'] = form.Type.data
+        session['event'] = form.event.data
+        session['feedback'] = form.feedback.data
+
+        # automatically have a form redirect on submission, keeps template files
+        # simple as possible. Only get thank you page on valid submission
+        return redirect(url_for('View_Hours'))
+
+    return render_template('sign_up.html', form=form)
+
 
 if __name__ == '__main__':
     #db.create_all() # - unsupress when we connect to RDBMS

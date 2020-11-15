@@ -56,5 +56,20 @@
   
     </center>
   </form>
+
+  <form  method="post">
+    {{ form.hidden_tag() }}
+
+    {{ form.hours.label }} {{ form.hours() }}
+    <br>
+    {{ form.type.label}} {{form.type() }}
+    <br>
+    {{ form.event.label }} {{ form.event() }}
+    <br>
+    Any other feedback?
+    {{ form.feedback() }}
+    <br>
+    {{ form.submit() }}
+</form>
  
 {% endblock %}
