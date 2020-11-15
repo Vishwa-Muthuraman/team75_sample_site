@@ -99,13 +99,13 @@ class InfoForm(FlaskForm):
     hours = StringField('How many hours did you spend?', validators=[DataRequired()])
     Type = BooleanField('Virtual or in person?')
     event = RadioField('Select which event you attended',
-                      choices=[('event_one', 'WISE'), ('event_two', 'Food Drive')])
+    choices=[('event_one', 'WISE'), ('event_two', 'Food Drive')])
     feedback = TextAreaField()
     submit = SubmitField('Submit')
 
 
-@app.route('/sign_up', methods=['GET','POST'])
-def index():
+@app.route('/<sign_up>/', methods=['GET','POST'])
+def indx():
     form = InfoForm()
 
     if form.validate_on_submit():

@@ -14,11 +14,48 @@
     </center></p>
 
         <center><p>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#volunteering" aria-expanded="false" aria-controls="collapseExample">
+            <script>
+                var firstClicked = false
+                var secondClicked = false
+
+                function showText()
+                {
+                    if(!firstClicked && secondClicked)
+                    {
+                        var primaryButton = document.getElementById("volunteering_events")
+                        var secondaryButton = document.getElementById("year_round")
+
+                        primaryButton.click = secondaryButton.click()
+                        secondClicked = false
+                        firstClicked = true
+                    }
+                    else if(!secondClicked && firstClicked)
+                    {
+                        var primaryButton = document.getElementById("year_round")
+                        var secondaryButton = document.getElementById("volunteering_events")
+                        
+                        primaryButton.click = secondaryButton.click()
+                        secondClicked = true
+                        firstClicked = false
+                    }
+                    
+                }
+            </script>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#volunteering" aria-expanded="false" aria-controls="collapseExample" id = "volunteering_events" onclick="">
             Volunteering events (including, but not limited to):
+            <script>
+                firstClicked = true
+                functionText()
+                print("no")
+            </script>
             </button>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#offsiteOutreach" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#offsiteOutreach" aria-expanded="false" aria-controls="collapseExample" onclick="" id = "year_round">
             Year-round offsite outreach:
+            
+            <script>
+                secondClicked = true
+                functionText()
+            </script>
             </button>
         </center></p>
 
