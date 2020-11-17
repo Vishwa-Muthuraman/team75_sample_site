@@ -15,4 +15,4 @@ class Volunteers(db.Model):
     def __init__(self, name, event, hours):
         self.name = name
         self.event = event
-        self.hours = hours
+        self.hours = hours 
