@@ -15,7 +15,8 @@ class VolunteerForm(FlaskForm):
     event = SelectField("Select which event you attended",
                  choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive')])
 
-    submit = SubmitField("Submit")
+    submit = SubmitField("Enter")
+    
 
 
 

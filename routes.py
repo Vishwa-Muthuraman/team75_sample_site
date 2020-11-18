@@ -52,11 +52,11 @@ def index():
         event = form.event.data
 
         v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event)
-        
+
         db.session.add(v)
         db.session.commit()
         flash('Data Submitted')
-        
+                
         return redirect(url_for('recent_volunteers'))
 
     return render_template('sign_up.html', form=form)
@@ -64,6 +64,6 @@ def index():
 @app.route('/recent_volunteers')
 def recent_volunteers():
 
-    volunteers = EventRegist.query.all()
+    eventregist = EventRegist.query.all()
 
-    return render_template('recent_volunteers.html', volunteers=volunteers)
+    return render_template('recent_volunteers.html', eventregist=eventregist)

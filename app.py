@@ -6,14 +6,13 @@ app = Flask(__name__)
 # app.config["DEBUG"] = True
 app.config['SECRET_KEY'] = 'my_secret_key_12345'
 # # # config app
-# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
 basedir = os.path.abspath(os.path.dirname(__file__))
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'data.sqlite')
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///EventRegist.db'
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
 
 # # connect to SQLAlchemy
 db = SQLAlchemy(app)
+
 
 # # create engine
 # engine = create_engine("postgresql://postgres:postgres@localhost/Students")
