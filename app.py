@@ -6,7 +6,7 @@ app = Flask(__name__)
 # app.config["DEBUG"] = True
 app.config['SECRET_KEY'] = 'my_secret_key_12345'
 # # # config app
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
+# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
 

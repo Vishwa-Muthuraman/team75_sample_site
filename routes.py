@@ -63,7 +63,5 @@ def index():
 
 @app.route('/recent_volunteers')
 def recent_volunteers():
-
     eventregist = EventRegist.query.all()
-
     return render_template('recent_volunteers.html', eventregist=eventregist)
