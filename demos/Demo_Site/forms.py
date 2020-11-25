@@ -9,7 +9,8 @@ class VolunteerInfo(FlaskForm):
 
     student_name = StringField("Please enter your full name", validators=[DataRequired()])
     event = SelectField("Event: ",
-                        choices=[('WISE', 'WISE'),('WiSTEM2D','WiSTEM2D'), ('FIRST', 'FIRST')])
+                        choices=[('WISE', 'WISE'),('WiSTEM2D','WiSTEM2D'), ('FIRST', 'FIRST'),
+                                 ('Demos', 'Demos'), ('Boroblast','Boroblast')])
 
 
     hours = DecimalField("Please enter the number of hours worked: ",validators=[DataRequired(), NumberRange(max=10)])
