@@ -7,7 +7,7 @@
         <p>If you are unsure as to what may be considered outreach or have any other concern click here:</p>
         <a class="btn btn-primary btn-lg" href="/Good_Standing" role="button">Learn more</a> -->
 
-<form>
+<!-- <form>
     <center>
 
       <div class="form-group">
@@ -51,25 +51,26 @@
       <label for="exampleFormControlTextarea1">Brief description of work completed</label>
       <textarea class="form-control" id="description" rows="3"></textarea>
     </div> -->
-
+<!-- 
     <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="popover" title="Thank you!!" data-content="Once, I actually know how to code, this will do something, but for now, Good Job!">Submit</button>
   
     </center>
-  </form>
+  </form> --> -->
 
-  <form  method="post">
+
+  <form action="sign_up" method="POST">
     {{ form.hidden_tag() }}
 
-    {{ form.hours.label }} {{ form.hours() }}
+    {{ form.student_name.label }} {{ form.student_name() }}
     <br>
-    {{ form.type.label}} {{form.type() }}
+    {{ form.student_ID.label }} {{ form.student_ID() }}
     <br>
     {{ form.event.label }} {{ form.event() }}
     <br>
-    Any other feedback?
-    {{ form.feedback() }}
+    {{ form.hours.label }} {{ form.hours() }}
     <br>
     {{ form.submit() }}
+
 </form>
  
 {% endblock %}
