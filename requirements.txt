@@ -15,6 +15,7 @@ psycopg2==2.8.6
 pytz==2020.1
 requests==2.24.0
 sqlparse==0.4.1
+SQLAlchemy==0.8.0
 urllib3==1.25.11
 Werkzeug==1.0.1
 whitenoise==5.2.0
