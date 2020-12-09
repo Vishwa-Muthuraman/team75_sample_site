@@ -65,3 +65,22 @@ def index():
 def recent_volunteers():
     eventregist = EventRegist.query.all()
     return render_template('recent_volunteers.html', eventregist=eventregist)
+
+@app.route('/specific_volunteers', methods=['GET', 'POST'])
+def indx():
+    form = forms.SpecificUser()
+
+    if form.validate_on_submit():
+        # update session object
+        print('Validated')
+        student_ID = form.student_ID.data       
+        return redirect(url_for('volunteer_found'))
+
+    return render_template('specific_volunteers.html', forms=form)
+
+@app.route('/volunteer_found')
+def volunteer_found():
+    stud_eventregist = EventRegist.query.filter_by(stud_ID=forms.student_ID.data)
+    return render_template('volunteer_found', studregist=stud_eventregist)
+
+    

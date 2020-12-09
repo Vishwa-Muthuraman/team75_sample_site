@@ -63,8 +63,8 @@ def recent_volunteers():
     print(gb)
 
     # remove image if it exits
-    if os.path.exists("static/images/plot.png"):
-        os.remove("static/images/plot.png")
+    if os.path.exists("plot.png"):
+        os.remove("plot.png")
 
     fig = plt.figure()
     axis = fig.add_subplot(1,1,1)
@@ -76,10 +76,10 @@ def recent_volunteers():
     axis.set_ylabel("Hours", fontsize=14)
     axis.set_xlabel("Event", fontsize=14)
 
-    plt.savefig('static/images/plot.png')
+    plt.savefig('plot.png')
 
     return render_template('recent_volunteers.html', volunteers=volunteers,
-                           url='static/images/plot.png')
+                           url='plot.png')
 
 
 @app.route('/plot.png')
@@ -106,8 +106,8 @@ def plot_png():
     print(gb)
 
     # remove image if it exits
-    if os.path.exists("static/images/plot.png"):
-        os.remove("static/images/plot.png")
+    if os.path.exists("plot.png"):
+        os.remove("plot.png")
 
     fig = plt.figure()
     axis = fig.add_subplot(1,1,1)

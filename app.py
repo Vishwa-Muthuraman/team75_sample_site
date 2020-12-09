@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
 
+
 app = Flask(__name__)
 # app.config["DEBUG"] = True
 app.config['SECRET_KEY'] = 'my_secret_key_12345'
@@ -46,9 +47,7 @@ db = SQLAlchemy(app)
     #     # define string representation of table
     #     return f"Student {self.name} is {self.age} year/s old"
 # let's do this by Friday August 28
-
 from routes import *
-
 if __name__ == '__main__':
     #db.create_all() # - unsupress when we connect to RDBMS
     app.run(debug=True)

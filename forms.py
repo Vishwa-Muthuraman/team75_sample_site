@@ -16,8 +16,12 @@ class VolunteerForm(FlaskForm):
                  choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive')])
 
     submit = SubmitField("Enter")
-    
 
+class SpecificUser(FlaskForm):
+    # create attributes
+    student_ID = StringField("Please enter your student ID", validators=[DataRequired()])
+
+    submit = SubmitField("Enter")
 
 
 

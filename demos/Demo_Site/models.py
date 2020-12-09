@@ -15,7 +15,6 @@ class Volunteers(db.Model): # classes map to SQL Tables
     def __init__(self, name, event, hours):
         self.name = name
         self.event = event
-<<<<<<< HEAD
         self.hours = hours
 
 
@@ -70,6 +69,6 @@ class Volunteers(db.Model): # classes map to SQL Tables
 # 'Matt' - FIRST_ID = 12345
 
 ## table Sponsors
-=======
-        self.hours = hours 
->>>>>>> e153ff15b4b84762e8ab38a9847fbafd5c63ac97
+# =======
+#         self.hours = hours 
+# >>>>>>> e153ff15b4b84762e8ab38a9847fbafd5c63ac97
