@@ -2,11 +2,13 @@ asgiref==3.2.10
 certifi==2020.6.20
 chardet==3.0.4
 click==7.1.2
+DateTime==4.3
 dj-database-url==0.5.0
 Django==3.1.2
 django-heroku==0.3.1
 Flask==1.1.2
 Flask-SQLAlchemy==2.4.4
+Flask-WTF==0.14.3
 gunicorn==20.0.4
 idna==2.10
 itsdangerous==1.1.0
@@ -21,3 +23,5 @@ urllib3==1.25.11
 Werkzeug==1.0.1
 whitenoise==5.2.0
 wincertstore==0.2
+WTForms==2.3.3
+zope.interface==5.2.0
