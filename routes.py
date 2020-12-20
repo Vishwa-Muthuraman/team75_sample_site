@@ -72,15 +72,16 @@ def indx():
 
     if form.validate_on_submit():
         # update session object
-        print('Validated')
-        student_ID = form.student_ID.data       
+        print('Validated')  
+     
         return redirect(url_for('volunteer_found'))
 
-    return render_template('specific_volunteers.html', forms=form)
+    return render_template('specific_volunteers.html', form=form)
 
-@app.route('/volunteer_found')
+@app.route('/volunteer_found', methods=['GET', 'POST'])
 def volunteer_found():
-    stud_eventregist = EventRegist.query.filter_by(stud_ID=forms.student_ID.data)
-    return render_template('volunteer_found', studregist=stud_eventregist)
+        form = forms.SpecificUser()
+        stud_eventregist = EventRegist.query.filter_by(stud_ID=form.stud_ID.data)
+        return render_template('volunteer_found.html', studregist=stud_eventregist)
 
     
