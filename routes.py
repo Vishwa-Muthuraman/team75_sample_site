@@ -76,7 +76,7 @@ def indx():
      
         return redirect(url_for('volunteer_found'))
 
-    return render_template('specific_volunteers.html', form=form)
+    return render_template('specific_volunteers.html', forms=form)
 
 @app.route('/volunteer_found', methods=['GET', 'POST'])
 def volunteer_found():
