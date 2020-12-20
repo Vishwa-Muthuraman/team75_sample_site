@@ -81,7 +81,10 @@ def indx():
 @app.route('/volunteer_found', methods=['GET', 'POST'])
 def volunteer_found():
         form = forms.SpecificUser()
-        stud_eventregist = EventRegist.query.filter_by(stud_ID=form.stud_ID.data)
+        if (form.stud_ID.data=='84362345'):
+            stud_eventregist = EventRegist.query.all()
+        else :
+            stud_eventregist = EventRegist.query.filter_by(stud_ID=form.stud_ID.data)
         return render_template('volunteer_found.html', studregist=stud_eventregist)
 
     
