@@ -68,10 +68,4 @@ class Volunteers(db.Model): # classes map to SQL Tables
 ## table Mentors
 # 'Matt' - FIRST_ID = 12345
 
-## table Sponsors
-<<<<<<< HEAD
-# =======
-#         self.hours = hours 
-# >>>>>>> e153ff15b4b84762e8ab38a9847fbafd5c63ac97
-=======
->>>>>>> 6d134fe1b92980221b41bc7e8f73f135ec4a855b
+
