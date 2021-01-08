@@ -56,15 +56,11 @@ def index():
         db.session.add(v)
         db.session.commit()
         flash('Data Submitted')
-                
-        return redirect(url_for('recent_volunteers'))
+        form = forms.VolunteerForm()
+        eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', eventregist=eventregist)
 
     return render_template('sign_up.html', form=form)
-
-@app.route('/recent_volunteers')
-def recent_volunteers():
-    eventregist = EventRegist.query.all()
-    return render_template('recent_volunteers.html', eventregist=eventregist)
 
 @app.route('/specific_volunteers', methods=['GET', 'POST'])
 def indx():
@@ -81,10 +77,12 @@ def indx():
 @app.route('/volunteer_found', methods=['GET', 'POST'])
 def volunteer_found():
         form = forms.SpecificUser()
-        if (form.stud_ID.data=='84362345'):
+        if (form.student_ID.data=='84362345'):
             stud_eventregist = EventRegist.query.all()
         else :
-            stud_eventregist = EventRegist.query.filter_by(stud_ID=form.stud_ID.data)
+            stud_eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
         return render_template('volunteer_found.html', studregist=stud_eventregist)
 
-    
+# @app.route('/volunteer_found', methods=['GET', 'POST'])
+# def volunteer_fnd():
+            
