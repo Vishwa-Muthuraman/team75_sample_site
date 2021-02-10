@@ -1,6 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, SubmitField, DecimalField
 from wtforms.validators import DataRequired, NumberRange, Email
+import datetime
 
 class NewUser(FlaskForm):
     student_name = StringField("Please enter your name", validators=[DataRequired()])
@@ -13,9 +14,12 @@ class VolunteerForm(FlaskForm):
     hours = DecimalField("Please enter the number of hours worked: ",validators=[DataRequired(), NumberRange(max=10)])
 
     event = SelectField("Select which event you attended",
-                 choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive')])
+                 choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive'),('ARIS STEM Summit','ARIS STEM Summit')])
 
     submit = SubmitField("Enter")
+
+    # tme = datetime.datetime.now().strftime('%Y-%m-%d')
+    tme = "Hello"
 
 class SpecificUser(FlaskForm):
     # create attributes

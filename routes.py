@@ -57,8 +57,9 @@ def index():
         student_ID = form.student_ID.data
         hours = form.hours.data
         event = form.event.data
+        tme  = form.tme.data
 
-        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event)
+        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event, tme=tme)
 
         db.session.add(v)
         db.session.commit()
