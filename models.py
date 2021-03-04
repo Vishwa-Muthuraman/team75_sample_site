@@ -34,3 +34,16 @@ class Student_ID_Pairs(db.Model):
     name = db.Column(db.String(100), nullable=False)
 
     stud_ID = db.Column(db.String(100), nullable=False)    
+
+class StudentRegist(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+
+    name = db.Column(db.String(100), nullable=False)
+
+    subteam = db.Column(db.String(100), nullable=False)
+
+    email = db.Column(db.String(100), nullable=False)
+
+    grad_year = db.Column(db.String(100), nullable=False)
+
+    stud_ID = db.Column(db.String(100), nullable=False)
