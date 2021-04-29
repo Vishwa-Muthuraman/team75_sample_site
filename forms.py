@@ -14,8 +14,6 @@ class VolunteerForm(FlaskForm):
 
     submit = SubmitField("Enter")
 
-    tme = datetime.datetime.now().strftime('%Y-%m-%d')
-    # tme = "Hello"
 
 class SpecificUser(FlaskForm):
     # create attributes

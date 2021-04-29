@@ -48,6 +48,7 @@ db = SQLAlchemy(app)
 #         return f"Student {self.name} is {self.age} year/s old"
 # let's do this by Friday August 28
 from routes import *
+
 if __name__ == '__main__':
-    db.create_all() # - unsupress when we connect to RDBMS
+    # db.create_all() # - unsupress when we connect to RDBMS
     app.run(debug=True)

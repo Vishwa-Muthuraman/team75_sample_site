@@ -34,19 +34,6 @@ def View_hours():
 def User_View():
     return render_template("User_View.html")
 
-
-@app.route("/manasi")
-def manasi():
-    return render_template("manasi.html")
-
-@app.route("/ian")
-def ian(): 
-    return render_template("ian.html")
-
-@app.route("/nihal")
-def nihal():
-    return render_template("nihal.html")
-
 @app.route('/sign_up', methods=['GET','POST'])
 def index():
     form = forms.VolunteerForm()
@@ -58,9 +45,8 @@ def index():
         student_ID = form.student_ID.data
         hours = form.hours.data
         event = form.event.data
-        tme  = form.tme.data
 
-        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event, tme=tme)
+        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event)
 
         db.session.add(v)
         db.session.commit()
