@@ -12,7 +12,9 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
 
-# app.config['DATABASE_URL'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
+# DATABASE_URL = os.environ['DATABASE_URL']
+
+# conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 # # connect to SQLAlchemy
 db = SQLAlchemy(app)
