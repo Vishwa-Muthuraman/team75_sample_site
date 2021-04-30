@@ -51,5 +51,5 @@ db = SQLAlchemy(app)
 from routes import *
 
 if __name__ == '__main__':
-    # db.create_all() # - unsupress when we connect to RDBMS
+    db.create_all() # - unsupress when we connect to RDBMS
     app.run(debug=True)
