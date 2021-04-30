@@ -1,7 +1,7 @@
 from flask import render_template, redirect, url_for, flash, Response
 from app import app, db
 import forms
-from models import EventRegist
+from models import DATABASE_URL
 from models import StudentRegist
 from datetime import datetime
 
@@ -46,14 +46,14 @@ def index():
         hours = form.hours.data
         event = form.event.data
 
-        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event)
+        v = DATABASE_URL(name=student_name, stud_ID=student_ID, hours=hours, event=event)
 
         db.session.add(v)
         db.session.commit()
         flash('Data Submitted')
         form = forms.VolunteerForm()
-        eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', eventregist=eventregist)
+        DATABASE_URL = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', DATABASE_URL=DATABASE_URL)
 
     return render_template('sign_up.html', form=form)
 
