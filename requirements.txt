@@ -21,6 +21,7 @@ numpy==1.19.5
 pandas==1.1.4
 Pillow==8.1.0
 psycopg2==2.8.6
+psycopg2-binary==2.8.6
 pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.1
