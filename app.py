@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
-import psycopg2
 
 
 app = Flask(__name__)
@@ -10,12 +9,12 @@ app.config['SECRET_KEY'] = 'my_secret_key_12345'
 # # # config app
 # app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
 basedir = os.path.abspath(os.path.dirname(__file__))
-os.environ['DATABASE_URL'] = 'postgres://lyxftvtehiepnb:ff7e72d3218db41286c30887447b7e792a2ab9054367cfe8ab8211d391d95556@ec2-52-21-252-142.compute-1.amazonaws.com:5432/d9u8en0ugn46bj'
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['postgres://lyxftvtehiepnb:ff7e72d3218db41286c30887447b7e792a2ab9054367cfe8ab8211d391d95556@ec2-52-21-252-142.compute-1.amazonaws.com:5432/d9u8en0ugn46bj']
+SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+app.config['DATABASE_URL'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
 
 # # connect to SQLAlchemy
 db = SQLAlchemy(app)
+
 
 # # create engine
 # engine = create_engine("postgresql://postgres:postgres@localhost/Students")
@@ -52,5 +51,5 @@ db = SQLAlchemy(app)
 from routes import *
 
 if __name__ == '__main__':
-    db.create_all() # - unsupress when we connect to RDBMS
+    # db.create_all() # - unsupress when we connect to RDBMS
     app.run(debug=True)

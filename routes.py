@@ -1,7 +1,7 @@
 from flask import render_template, redirect, url_for, flash, Response
 from app import app, db
 import forms
-from models import d9u8en0ugn46bj
+from models import EventRegist
 from models import StudentRegist
 from datetime import datetime
 
@@ -46,14 +46,14 @@ def index():
         hours = form.hours.data
         event = form.event.data
 
-        v = d9u8en0ugn46bj(name=student_name, stud_ID=student_ID, hours=hours, event=event)
+        v = EventRegist(name=student_name, stud_ID=student_ID, hours=hours, event=event)
 
         db.session.add(v)
         db.session.commit()
         flash('Data Submitted')
         form = forms.VolunteerForm()
-        d9u8en0ugn46bj = d9u8en0ugn46bj.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', d9u8en0ugn46bj=d9u8en0ugn46bj)
+        eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', eventregist=eventregist)
 
     return render_template('sign_up.html', form=form)
 
@@ -75,9 +75,9 @@ def indx():
 def volunteer_found():
         form = forms.SpecificUser()
         if (form.student_ID.data=='84362345'):
-            stud_eventregist = d9u8en0ugn46bj.query.all()
+            stud_eventregist = EventRegist.query.all()
         else :
-            stud_eventregist = d9u8en0ugn46bj.query.filter_by(stud_ID=form.student_ID.data)
+            stud_eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
 
         total_hours = 0
         event, hours = [], []
@@ -121,12 +121,12 @@ def volunteer_found():
 def plot_png():
     # grab data
     form = forms.SpecificUser()
-    d9u8en0ugn46bj = d9u8en0ugn46bj.query.filter_by(stud_ID=form.student_ID.data)
+    eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
 
     total_hours = 0
     event, hours = [], []
 
-    for data in d9u8en0ugn46bj:
+    for data in eventregist:
         # add up all hours volunteered
         total_hours += data.hours
 
@@ -181,7 +181,7 @@ def ind():
         db.session.commit()
         flash('Data Submitted')
         form = forms.GeneralAccount()
-        d9u8en0ugn46bj = d9u8en0ugn46bj.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', d9u8en0ugn46bj=d9u8en0ugn46bj)
+        eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', eventregist=eventregist)
 
     return render_template('new_user.html', form=form)
