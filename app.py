@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
-
+import psycopg2
 
 app = Flask(__name__)
 # app.config["DEBUG"] = True
@@ -9,8 +9,10 @@ app.config['SECRET_KEY'] = 'my_secret_key_12345'
 # # # config app
 # app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@localhost/Students"
 basedir = os.path.abspath(os.path.dirname(__file__))
+
 SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
-app.config['DATABASE_URL'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
+
+# app.config['DATABASE_URL'] = 'sqlite:///' + os.path.join(basedir,'EventRegist.db')
 
 # # connect to SQLAlchemy
 db = SQLAlchemy(app)
