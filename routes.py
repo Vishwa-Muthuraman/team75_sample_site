@@ -52,8 +52,8 @@ def index():
         db.session.commit()
         flash('Data Submitted')
         form = forms.VolunteerForm()
-        DATABASE_URL = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', DATABASE_URL=DATABASE_URL)
+        database_url = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', DATABASE_URL=database_url)
 
     return render_template('sign_up.html', form=form)
 
@@ -75,9 +75,9 @@ def indx():
 def volunteer_found():
         form = forms.SpecificUser()
         if (form.student_ID.data=='84362345'):
-            stud_eventregist = EventRegist.query.all()
+            stud_eventregist = DATABASE_URL.query.all()
         else :
-            stud_eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
+            stud_eventregist = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
 
         total_hours = 0
         event, hours = [], []
@@ -121,7 +121,7 @@ def volunteer_found():
 def plot_png():
     # grab data
     form = forms.SpecificUser()
-    eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
+    eventregist = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
 
     total_hours = 0
     event, hours = [], []
@@ -181,7 +181,7 @@ def ind():
         db.session.commit()
         flash('Data Submitted')
         form = forms.GeneralAccount()
-        eventregist = EventRegist.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', eventregist=eventregist)
+        DATABASE_URL = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
+        return render_template('volunteer_found.html', DATABASE_URL=DATABASE_URL)
 
     return render_template('new_user.html', form=form)
