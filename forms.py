@@ -28,7 +28,7 @@ class GeneralAccount(FlaskForm):
     student_email = StringField("Please enter your school email",validators=[DataRequired()])
     subteam = SelectField("Select your subteam",
                         choices=[('Executive Leadership', 'Executive Leadership'),
-                                ('Documentation', 'Documentation'), ('Public Relations', 'Public Relations'),
+                                ('Documentation', 'Documentation'), ('Public Relatons', 'Public Relations'),
                                 ('Finance','Finance'),('Strategy','Strategy'),
                                 ('Design','Design'), ('Mechanical','Mechanical'),
                                 ('Electrical','Electrical'),('Supplementary','Supplementary'),
