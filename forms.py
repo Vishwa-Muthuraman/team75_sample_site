@@ -17,8 +17,8 @@ class VolunteerForm(FlaskForm):
 
 class SpecificUser(FlaskForm):
     # create attributes
-    student_ID = StringField("Please enter your student ID", validators=[DataRequired()])
-
+    student_ID = StringField("Please enter your Student ID", validators=[DataRequired()])
+ 
     submit = SubmitField("Enter")
 
 class GeneralAccount(FlaskForm):
