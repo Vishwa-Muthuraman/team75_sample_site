@@ -6,7 +6,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/main.py",
             "env": {},
             "envFile": "${workspaceFolder}/.env",
             "console": "integratedTerminal"
