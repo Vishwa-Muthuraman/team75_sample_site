@@ -21,19 +21,5 @@ class SpecificUser(FlaskForm):
  
     submit = SubmitField("Enter")
 
-class GeneralAccount(FlaskForm):
-    student_name = StringField("Please enter your full name", validators=[DataRequired()])
-    student_ID = StringField("Please enter your student ID", validators=[DataRequired()])
-    grad_year = StringField("Please enter your graduation year", validators=[DataRequired()])
-    student_email = StringField("Please enter your school email",validators=[DataRequired()])
-    subteam = SelectField("Select your subteam",
-                        choices=[('Executive Leadership', 'Executive Leadership'),
-                                ('Documentation', 'Documentation'), ('Public Relatons', 'Public Relations'),
-                                ('Finance','Finance'),('Strategy','Strategy'),
-                                ('Design','Design'), ('Mechanical','Mechanical'),
-                                ('Electrical','Electrical'),('Supplementary','Supplementary'),
-                                ('Programming','Programming'),('Safety','Safety')])
-    submit = SubmitField("Enter")
-
 
 
