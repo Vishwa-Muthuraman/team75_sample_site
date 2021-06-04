@@ -160,28 +160,3 @@ def plot_png():
     FigureCanvas(fig).print_png(output)
 
     return Response(output.getvalue(), mimetype='image/png')
-    
-@app.route('/new_user', methods=['GET','POST'])
-def ind():
-    form = forms.GeneralAccount()
-
-    if form.validate_on_submit():
-        # update session object
-        print('Validated')
-        student_name = form.student_name.data
-        student_ID = form.student_ID.data
-        grad_year = form.grad_year.data
-        student_email = form.student_email.data
-        subteam = form.subteam.data
-
-        v = StudentRegist(name=student_name, stud_ID=student_ID, grad_year=grad_year, 
-                            email=student_email, subteam=subteam)
-
-        db.session.add(v)
-        db.session.commit()
-        flash('Data Submitted')
-        form = forms.GeneralAccount()
-        DATABASE_URL = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
-        return render_template('volunteer_found.html', DATABASE_URL=DATABASE_URL)
-
-    return render_template('new_user.html', form=form)
