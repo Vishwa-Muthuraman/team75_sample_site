@@ -10,7 +10,7 @@ class VolunteerForm(FlaskForm):
     hours = DecimalField("Please enter the number of hours worked: ",validators=[DataRequired(), NumberRange(max=10)])
 
     event = SelectField("Select which event you attended",
-                 choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive'),('ARIS STEM Summit','ARIS STEM Summit'), ('Charity Miles','Charity Miles')])
+                 choices=[('WISE', 'WISE'), ('Food Drive', 'Food Drive'),('ARIS STEM Summit','ARIS STEM Summit'), ('Charity Miles','Charity Miles'),('Crocheting','Crocheting')])
 
     submit = SubmitField("Enter")
 
