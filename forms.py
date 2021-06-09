@@ -12,6 +12,9 @@ class VolunteerForm(FlaskForm):
     event = SelectField("Select which event you attended",
                  choices=[('WISE', 'WISE'), ('WISTEM2D', 'WISTEM2D'), ('Food Drive', 'Food Drive'),('ARIS STEM Summit','ARIS STEM Summit'), ('Charity Miles','Charity Miles'),('Crocheting','Crocheting'), ('Animal Shelter','Animal Shelter'), ('FLL BoroBlast', 'FLL BoroBlast'), ('IBM', 'IBM')])
 
+    date =  DecimalField("Please Enter date you attended the event MM/DD/YYYY format", validators=[DataRequired()])
+    date1 = DecimalField("Please Enter date of entry MM/DD/YYYY format", validators=[DataRequired()])
+
     submit = SubmitField("Enter")
 
 
