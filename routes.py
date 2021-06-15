@@ -44,8 +44,9 @@ def index():
         student_ID = form.student_ID.data
         hours = form.hours.data
         event = form.event.data
+        Date = form.date.data
 
-        v = DATABASE_URL(name=student_name, stud_ID=student_ID, hours=hours, event=event)
+        v = DATABASE_URL(name=student_name, stud_ID=student_ID, hours=hours, event=event, date=Date)
 
         db.session.add(v)
         db.session.commit()
