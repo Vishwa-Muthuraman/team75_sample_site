@@ -23,7 +23,7 @@ class DATABASE_URL(db.Model):
         self.event = event
         self.hours = hours
         self.stud_ID = stud_ID
-        self.date = Date
+        self.Date = Date
 
 class Student_ID_Pairs(db.Model):
     id = db.Column(db.Integer, primary_key=True)

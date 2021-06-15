@@ -44,12 +44,13 @@ def index():
         student_ID = form.student_ID.data
         hours = form.hours.data
         event = form.event.data
-        Date = form.date.data
+        Date = form.Date.data
 
-        v = DATABASE_URL(name=student_name, stud_ID=student_ID, hours=hours, event=event, date=Date)
+        v = DATABASE_URL(name=student_name, stud_ID=student_ID, hours=hours, event=event, Date=Date)
 
         db.session.add(v)
         db.session.commit()
+        db.create_all()
         flash('Data Submitted')
         form = forms.VolunteerForm()
         database_url = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)
