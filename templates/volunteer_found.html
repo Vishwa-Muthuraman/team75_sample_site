@@ -9,7 +9,7 @@
 </ul>
 <ul>
     {% for v in DATABASE_URL %}
-    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hours. Student ID is {{v.stud_ID}}</li>
+    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hours on {{v.Date}}. Student ID is {{v.stud_ID}}</li>
     {% endfor %}
 </ul>
 
