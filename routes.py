@@ -50,7 +50,6 @@ def index():
 
         db.session.add(v)
         db.session.commit()
-        db.create_all()
         flash('Data Submitted')
         form = forms.VolunteerForm()
         database_url = DATABASE_URL.query.filter_by(stud_ID=form.student_ID.data)

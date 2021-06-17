@@ -12,7 +12,7 @@ class VolunteerForm(FlaskForm):
     event = SelectField("Select which event you attended",
                  choices=[('WISE', 'WISE'), ('WISTEM2D', 'WISTEM2D'), ('Food Drive', 'Food Drive'),('ARIS STEM Summit','ARIS STEM Summit'), ('Charity Miles','Charity Miles'),('Crocheting','Crocheting'), ('Animal Shelter','Animal Shelter'), ('FLL BoroBlast', 'FLL BoroBlast'), ('IBM', 'IBM')])
    
-    Date = StringField("Type the date you are entering the form in the format (month date, year) Ex: June 15, 2021 ")
+    Date = StringField("Type the date you are entering the form in the format (month date, year) Ex: June 15, 2021 ",validators=[DataRequired()])
 
     submit = SubmitField("Enter")
 
