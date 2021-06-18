@@ -48,7 +48,6 @@ db = SQLAlchemy(app)
 #     def __repr__(self):
 #         # define string representation of table
 #         return f"Student {self.name} is {self.age} year/s old"
-# let's do this by Friday August 28
 from routes import *
 
 if __name__ == '__main__':
