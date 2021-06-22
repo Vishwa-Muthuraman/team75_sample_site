@@ -12,7 +12,7 @@ class DATABASE_URL(db.Model):
 
     stud_ID = db.Column(db.String(100), nullable=False)
 
-    Date = db.Column(db.String(100), nullable=False)
+    Date = db.Column(db.Date(), nullable=False)
 
 
     def __repr__(self):
