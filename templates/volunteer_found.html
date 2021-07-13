@@ -4,12 +4,12 @@
 <h1>Recent Hours</h1>
 <ul>
     {% for v in studregist %}
-    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hours. Student ID is {{v.stud_ID}}</li>
+    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hour(s). Student ID is {{v.stud_ID}} Form filled out on {{v.Date}}</li>
     {% endfor %}
 </ul>
 <ul>
     {% for v in DATABASE_URL %}
-    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}}. Student ID is {{v.stud_ID}}. Form filled out on {{v.Date}}</li>
+    <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hour(s). Student ID is {{v.stud_ID}}. Form filled out on {{v.Date}}</li>
     {% endfor %}
 </ul>
 

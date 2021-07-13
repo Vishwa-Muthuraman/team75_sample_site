@@ -16,7 +16,7 @@ class DATABASE_URL(db.Model):
 
 
     def __repr__(self):
-        return f'{self.name} volunteered at {self.event} for {self.hours} hours. Student ID is {self.stud_ID} submitted form on {self.Date}.'
+        return f'{self.name} volunteered at {self.event} for {self.hours} HOURS. Student ID is {self.stud_ID} submitted form on {self.Date}.'
        
     def __init__(self, name, event, hours, stud_ID, Date):
         self.name = name
