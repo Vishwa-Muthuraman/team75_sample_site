@@ -1,8 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, SubmitField, DecimalField, FloatField, DateField
 from wtforms.validators import DataRequired, NumberRange, Email, Length
-from selenium import webdriver
-from selenium.webdriver import ActionChains
 from datetime import date
 
 class VolunteerForm(FlaskForm):
