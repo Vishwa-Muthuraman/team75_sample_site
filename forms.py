@@ -13,7 +13,7 @@ class VolunteerForm(FlaskForm):
                  choices=[
 
                             ('Charity Miles (School year)','Charity Miles (School year)'),
-                            ('Food Drive (1/22-28/2022)','Food Drive (1/22-28/2022)')
+                            ('Food Drive (1/22-28/2022)','Food Drive (1/22-28/2022)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
                             ('RoboCreators Initiative Prep Work','RoboCreators Initiative Prep Work'),
