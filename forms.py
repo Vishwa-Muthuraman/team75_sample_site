@@ -15,8 +15,10 @@ class VolunteerForm(FlaskForm):
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             ('Food Drive (1/22-28/2022)','Food Drive (1/22-28/2022)'),
                             ('The World of DNA WISE Event (2/6/2022)', 'The World of DNA WISE Event (2/6/2022)'),
+                            ('Homework Help (School Year)','Homework Help (School Year)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
+                            ('Homework Help Prep Work (LEADS ONLY)','Homework Help Prep Work (LEADS ONLY)'),
                             ('RoboCreators Initiative Prep Work','RoboCreators Initiative Prep Work'),
                             ('WISE Prep Work(LEADS ONLY)', 'WISE Prep Work(LEADS ONLY)'),
                             ('WISTEM2D Prep Work(LEADS ONLY)', 'WISTEM2D Prep Work(LEADS ONLY)'),
