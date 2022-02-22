@@ -16,8 +16,10 @@ class VolunteerForm(FlaskForm):
                             ('Food Drive (1/22-28/2022)','Food Drive (1/22-28/2022)'),
                             ('The World of DNA WISE Event (2/6/2022)', 'The World of DNA WISE Event (2/6/2022)'),
                             ('Homework Help (School Year)','Homework Help (School Year)'),
+                            ('RoboSmiles - Cards for healthcare workers(2/17-21/2022)','RoboSmiles - Cards for healthcare workers(2/17-21/2022)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
+                            ('RoboSmiles Prep Work (Leads Only)','RoboSmiles Prep Work (Leads Only)'),
                             ('Homework Help Prep Work (LEADS ONLY)','Homework Help Prep Work (LEADS ONLY)'),
                             ('RoboCreators Initiative Prep Work','RoboCreators Initiative Prep Work'),
                             ('WISE Prep Work(LEADS ONLY)', 'WISE Prep Work(LEADS ONLY)'),
