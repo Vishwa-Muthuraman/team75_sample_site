@@ -19,6 +19,7 @@ class VolunteerForm(FlaskForm):
                             ('RoboSmiles - Cards for healthcare workers(2/17-21/2022)','RoboSmiles - Cards for healthcare workers(2/17-21/2022)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
+                            ('GSRM Prep Work', 'GSRM Prep Work'),
                             ('RoboSmiles Prep Work (Leads Only)','RoboSmiles Prep Work (Leads Only)'),
                             ('Homework Help Prep Work (LEADS ONLY)','Homework Help Prep Work (LEADS ONLY)'),
                             ('RoboCreators Initiative Prep Work','RoboCreators Initiative Prep Work'),
