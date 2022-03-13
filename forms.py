@@ -12,11 +12,13 @@ class VolunteerForm(FlaskForm):
     event = SelectField("Select which event you attended",
                  choices=[
 
+                            ('STEM Summit (3/26/2022)', 'STEM Summit (3/26/2022)'),
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             ('Homework Help (School Year)','Homework Help (School Year)'),
                             ('RoboSmiles - Cards for healthcare workers(2/17-21/2022)','RoboSmiles - Cards for healthcare workers(2/17-21/2022)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
+                            ('STEM Summit Prep Work (Leads Only)','STEM Summit Prep Work (Leads Only)'),
                             ('GSRM Prep Work', 'GSRM Prep Work'),
                             ('RoboSmiles Prep Work (Leads Only)','RoboSmiles Prep Work (Leads Only)'),
                             ('Homework Help Prep Work (LEADS ONLY)','Homework Help Prep Work (LEADS ONLY)'),
