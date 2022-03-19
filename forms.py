@@ -13,9 +13,9 @@ class VolunteerForm(FlaskForm):
                  choices=[
 
                             ('STEM Summit (3/26/2022)', 'STEM Summit (3/26/2022)'),
+                            ('RoboSmiles Easter Event (3/19/2022-4/5/2022)','RoboSmiles Easter Event (3/19/2022-4/5/2022)'),
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             ('Homework Help (School Year)','Homework Help (School Year)'),
-                            ('RoboSmiles - Cards for healthcare workers(2/17-21/2022)','RoboSmiles - Cards for healthcare workers(2/17-21/2022)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
                             ('STEM Summit Prep Work (Leads Only)','STEM Summit Prep Work (Leads Only)'),
