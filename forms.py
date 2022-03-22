@@ -18,6 +18,7 @@ class VolunteerForm(FlaskForm):
                             ('Homework Help (School Year)','Homework Help (School Year)'),
 
                             ('Executive Member Hours','Executive Member Hours'),
+                            ('Crocheting Prep Hours (Leads Only)','Crocheting Prep Hours (Leads Only)'),
                             ('STEM Summit Prep Work (Leads Only)','STEM Summit Prep Work (Leads Only)'),
                             ('GSRM Prep Work', 'GSRM Prep Work'),
                             ('RoboSmiles Prep Work (Leads Only)','RoboSmiles Prep Work (Leads Only)'),
