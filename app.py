@@ -7,7 +7,7 @@ app = Flask(__name__)
 # app.config["DEBUG"] = True
 app.config['SECRET_KEY'] = 'my_secret_key_12345'
 # # # config app
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://lyxftvtehiepnb:ff7e72d3218db41286c30887447b7e792a2ab9054367cfe8ab8211d391d95556@ec2-52-21-252-142.compute-1.amazonaws.com:5432/d9u8en0ugn46bj"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://lyxftvtehiepnb:ff7e72d3218db41286c30887447b7e792a2ab9054367cfe8ab8211d391d95556@ec2-52-21-252-142.compute-1.amazonaws.com:5432/d9u8en0ugn46bj"
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
