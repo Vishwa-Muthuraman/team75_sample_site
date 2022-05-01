@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:8000 app:app
+web: gunicorn app:app
