@@ -11,6 +11,7 @@ class VolunteerForm(FlaskForm):
 
     event = SelectField("Select which event you attended",
                  choices=[
+                            ('ARSHA Harlem Wizards Volunteering (5/21/2022)','ARSHA Harlem Wizards Volunteering (5/21/2022)'),
                             ('STEM through Gaming','STEM through Gaming'),
                             ('HES STEM Fair (5/20/22)','HES STEM Fair (5/20/22)'),
                             ('Hour of Code Initiative (Prep Hours)','Hour of Code Initiative (Prep Hours)'),
