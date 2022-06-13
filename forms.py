@@ -26,7 +26,7 @@ class VolunteerForm(FlaskForm):
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             ('Homework Help (School Year)','Homework Help (School Year)'),
 
-                            ('RVSTS Prep','RVSTS Prep'),
+                            ('RVSTS Prep Work','RVSTS Prep Work'),
                             ('Executive Member Hours','Executive Member Hours'),
                             ('Crocheting Prep Hours (Leads Only)','Crocheting Prep Hours (Leads Only)'),
                             ('STEM Summit Prep Work (Leads Only)','STEM Summit Prep Work (Leads Only)'),
