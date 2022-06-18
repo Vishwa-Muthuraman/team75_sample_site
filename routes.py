@@ -113,7 +113,7 @@ def volunteer_found():
 
         plt.savefig('plot.png')
 
-        return render_template('volunteer_found.html', studregist=stud_eventregist, url='plot.png')
+        return render_template('volunteer_found.html', studregist=stud_eventregist, url='plot.png', hours=total_hours)
 
 # @app.route('/volunteer_found', methods=['GET', 'POST'])
 # def volunteer_fnd():

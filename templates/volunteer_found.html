@@ -2,6 +2,7 @@
 {% block content %}
 
 <h1>Recent Hours</h1>
+<h4>Total of {{hours}} hours</h4>
 <ul>
     {% for v in studregist %}
     <li>{{v.name}} volunteered at {{v.event}} for {{v.hours}} hour(s). Student ID is {{v.stud_ID}} Form filled out on {{v.Date}}</li>
