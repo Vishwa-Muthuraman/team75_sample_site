@@ -30,6 +30,7 @@ class VolunteerForm(FlaskForm):
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             ('Homework Help (School Year)','Homework Help (School Year)'),
 
+                            ('Board of Education Prep', 'Board of Education Prep'),
                             ('FLL Prep Work', 'FLL Prep Work'),
                             ('RVSTS Prep Work','RVSTS Prep Work'),
                             ('Executive Member Hours','Executive Member Hours'),
