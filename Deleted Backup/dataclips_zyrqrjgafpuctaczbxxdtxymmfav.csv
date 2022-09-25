@@ -1,0 +1,575 @@
+id,name,event,hours,stud_ID,Date
+1,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2021-06-29
+2,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2021-07-13
+3,Jamie Cridge,Food Drive (7/13/2021),1.0,411081,2021-07-14
+4,Riddhima Medatwal,Food Drive (7/13/2021),2.0,507055,2021-07-14
+5,Anvesh Polamuri,Food Drive (7/13/2021),1.0,501983,2021-07-14
+6,Jahnave Dadi,WISE Prep Work(LEADS ONLY),7.5,503342,2021-07-14
+7,Jahnave Dadi,Food Drive (7/13/2021),1.0,503342,2021-07-14
+8,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2021-07-14
+9,Himani Patel,Food Drive (7/13/2021),3.0,503235,2021-07-15
+10,Mira Das,Stem Kits Prep Work(LEADS ONLY),0.75,411028,2021-07-15
+11,Mira Das,WISTEM2D Prep Work(LEADS ONLY),0.75,411028,2021-07-15
+12,Mira Das,IBM Prep Work(LEADS ONLY),1.0,411028,2021-07-15
+13,Adhithi Rajesh,Food Drive (7/13/2021),1.0,504241,2021-07-16
+14,Adhithi Rajesh,IBM (7/23/2021),1.5,504241,2021-07-16
+15,Ananya Srinivasan,Food Drive (7/13/2021),1.0,504221,2021-07-16
+16,Mira Das,Quaransteam (7/19/2021),2.0,411028,2021-07-19
+17,Maharshi Vyas,Quaransteam (7/19/2021),2.0,505272,2021-07-19
+18,Victor Ma,Quaransteam (7/19/2021),2.0,501939,2021-07-19
+19,Adhithi Rajesh,Quaransteam (7/19/2021),3.0,504241,2021-07-19
+20,Sai Shinde,Quaransteam Prep Work(LEADS ONLY),8.0,507051,2021-07-20
+21,Sai Shinde,Quaransteam (7/19/2021),3.0,507051,2021-07-20
+22,Ajay Desai,Quaransteam (7/19/2021),2.0,500688,2021-07-20
+23,Pooja Kedia,IBM (7/23/2021),5.0,409987,2021-07-20
+24,Jahnave Dadi,IBM (7/23/2021),1.25,503342,2021-07-27
+25,Jahnave Dadi,WISE Prep Work(LEADS ONLY),1.0,503342,2021-07-27
+26,Raj Boparai,Food Drive (7/13/2021),1.0,501788,2021-07-27
+27,Shilvi Shah,IBM Prep Work(LEADS ONLY),6.0,502618,2021-07-29
+28,Shilvi Shah,Quaransteam Prep Work(LEADS ONLY),0.5,502618,2021-07-29
+29,Shilvi Shah,IBM (7/23/2021),1.5,502618,2021-07-29
+30,Shilvi Shah,IBM (7/23/2021),2.25,502618,2021-07-29
+31,Shilvi Shah,IBM Prep Work(LEADS ONLY),2.25,502618,2021-07-29
+32,Shilvi Shah,IBM Prep Work(LEADS ONLY),0.33,502618,2021-07-29
+33,Shilvi Shah,IBM Prep Work(LEADS ONLY),0.5,502618,2021-07-29
+34,Shilvi Shah,Quaransteam Prep Work(LEADS ONLY),0.5,502618,2021-07-29
+35,Shilvi Shah,IBM Prep Work(LEADS ONLY),3.0,502618,2021-07-29
+36,Shilvi Shah,IBM Prep Work(LEADS ONLY),2.2,502618,2021-07-29
+37,Shilvi Shah,IBM Prep Work(LEADS ONLY),3.0,502618,2021-07-29
+38,Jahnave Dadi,WISE Prep Work(LEADS ONLY),0.2,503342,2021-08-06
+39,Mahati Salapu,FLL BoroBlast Prep Work(LEADS ONLY),2.5,504338,2021-08-10
+40,Ananya Srinivasan,Hillsborough Rotary Fair (8/17-21/2021),4.5,504221,2021-08-19
+41,Mahati Salapu,IBM Prep Work(LEADS ONLY),2.0,504338,2021-08-19
+42,Adhithi Rajesh,Hillsborough Rotary Fair (8/17-21/2021),5.0,504241,2021-08-20
+43,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2021-08-20
+44,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),4.5,507048,2021-08-20
+45,Victor Ma,Hillsborough Rotary Fair (8/17-21/2021),4.0,501939,2021-08-21
+46,Maharshi Vyas,Hillsborough Rotary Fair (8/17-21/2021),2.0,505272,2021-08-22
+47,Maharshi Vyas,Hillsborough Rotary Fair (8/17-21/2021),2.0,505272,2021-08-22
+48,Siddharth Kumar,Hillsborough Rotary Fair (8/17-21/2021),4.0,506908,2021-08-22
+49,Ajay Desai,Hillsborough Rotary Fair (8/17-21/2021),5.5,500688,2021-08-24
+50,Ayush Guhan,Hillsborough Rotary Fair (8/17-21/2021),5.0,504372,2021-08-24
+51,Adhithi Rajesh,Hillsborough Rotary Fair (8/17-21/2021),2.5,504241,2021-08-24
+52,Jahnave Dadi,WISE Prep Work(LEADS ONLY),0.1,503342,2021-08-24
+53,Mira Das,Hillsborough Rotary Fair (8/17-21/2021),4.0,411028,2021-08-24
+54,Jahnave Dadi,Hillsborough Rotary Fair (8/17-21/2021),6.0,503342,2021-08-24
+55,Krish Patel,Hillsborough Rotary Fair (8/17-21/2021),6.5,409426,2021-08-24
+56,Rohan Gupta,Hillsborough Rotary Fair (8/17-21/2021),4.0,503329,2021-08-24
+57,Pooja Kedia,Hillsborough Rotary Fair (8/17-21/2021),4.0,409987,2021-08-24
+58,Aayush Patel,Hillsborough Rotary Fair (8/17-21/2021),3.0,500286,2021-08-24
+59,Dilan Choksi,Hillsborough Rotary Fair (8/17-21/2021),4.0,410299,2021-08-24
+60,Abhiram Sripada,Hillsborough Rotary Fair (8/17-21/2021),4.0,410557,2021-08-24
+61,Emily Cao,Hillsborough Rotary Fair (8/17-21/2021),6.0,410909,2021-08-24
+62,Heny Shah,Hillsborough Rotary Fair (8/17-21/2021),4.0,501964,2021-08-24
+63,Heny Shah,Hillsborough Rotary Fair (8/17-21/2021),4.0,501964,2021-08-24
+64,Heny Shah,Hillsborough Rotary Fair (8/17-21/2021),4.0,501964,2021-08-24
+65,Riddhima Medatwal,Hillsborough Rotary Fair (8/17-21/2021),4.0,507055,2021-08-24
+66,Himani Patel,Hillsborough Rotary Fair (8/17-21/2021),4.5,503235,2021-08-24
+67,Himani Patel,IBM (7/23/2021),1.0,503235,2021-08-24
+68,Rishab Hari,Hillsborough Rotary Fair (8/17-21/2021),5.5,409722,2021-08-24
+69,Mahati Salapu,Hillsborough Rotary Fair (8/17-21/2021),8.0,504338,2021-08-25
+70,Heny Shah,Stem Kits Prep Work(LEADS ONLY),1.0,501964,2021-08-25
+71,Shilvi Shah,Hillsborough Rotary Fair (8/17-21/2021),4.0,502618,2021-08-25
+72,Emily Cao,Safety Prep Work(LEADS ONLY),8.0,410909,2021-08-25
+73,Jahnave Dadi,Safety Prep Work(LEADS ONLY),6.0,503342,2021-08-25
+74,Mahati Salapu,Safety Prep Work(LEADS ONLY),8.0,504338,2021-08-25
+106,Aarnav Vyas,Hillsborough Rotary Fair (8/17-21/2021),4.0,409464,2021-08-25
+107,Hailey Desai,Hillsborough Rotary Fair (8/17-21/2021),4.0,502636,2021-08-27
+108,Siddharthan Padmanabhan,Hillsborough Rotary Fair (8/17-21/2021),4.5,409957,2021-08-27
+121,Raj Boparai,IBM (7/23/2021),10.0,501788,2021-08-30
+109,Anuj Patel,Hillsborough Rotary Fair (8/17-21/2021),4.5,500184,2021-08-27
+112,Shehzad Sultan,Hillsborough Rotary Fair (8/17-21/2021),2.0,507179,2021-08-27
+114,Nirmala Tetala ,Hillsborough Rotary Fair (8/17-21/2021),7.0,501068,2021-08-27
+110,Saiabhinav Attinti,Hillsborough Rotary Fair (8/17-21/2021),4.0,502759,2021-08-27
+111,Shehzad Sultan,Hillsborough Rotary Fair (8/17-21/2021),10.0,507179,2021-08-27
+113,Shehzad Sultan,IBM (7/23/2021),0.5,507179,2021-08-27
+115,Anvesh Polamuri,Hillsborough Rotary Fair (8/17-21/2021),4.0,501983,2021-08-27
+116,Tanvi Patel,Hillsborough Rotary Fair (8/17-21/2021),4.0,507695 ,2021-08-27
+117,Nithika Ramanathan,Hillsborough Rotary Fair (8/17-21/2021),4.0,501548,2021-08-27
+118,Nithika Ramanathan,Safety Prep Work(LEADS ONLY),6.0,501548,2021-08-27
+119,Matthew Tuttle,Hillsborough Rotary Fair (8/17-21/2021),4.5,410430,2021-08-27
+120,Raj Boparai,Hillsborough Rotary Fair (8/17-21/2021),4.0,501788,2021-08-30
+122,Maithili Revankar ,Food Drive (7/13/2021),2.0,409559,2021-08-31
+123,Derek Geng,IBM Prep Work(LEADS ONLY),6.0,502518,2021-08-31
+124,Derek Geng,Hillsborough Rotary Fair (8/17-21/2021),10.0,502518,2021-08-31
+125,Derek Geng,Hillsborough Rotary Fair (8/17-21/2021),5.0,502518,2021-08-31
+126,Kevin Creelman,Hillsborough Rotary Fair (8/17-21/2021),4.0,409475,2021-08-31
+127,Akash Iyer,Hillsborough Rotary Fair (8/17-21/2021),4.0,410182,2021-08-31
+128,Aahil Sudhin,Hillsborough Rotary Fair (8/17-21/2021),4.0,503305,2021-08-31
+129,Aarya Chaudhari,Hillsborough Rotary Fair (8/17-21/2021),4.0,500866,2021-08-31
+130,Anirudh Padhy,Hillsborough Rotary Fair (8/17-21/2021),5.5,505247,2021-08-31
+131,Nikhil Kamineni,Hillsborough Rotary Fair (8/17-21/2021),4.0,502301,2021-08-31
+132,Henna Desai,Hillsborough Rotary Fair (8/17-21/2021),4.0,504451,2021-08-31
+133,Rishi Roy,Hillsborough Rotary Fair (8/17-21/2021),4.0,409714,2021-08-31
+134,Rohan Giri,Hillsborough Rotary Fair (8/17-21/2021),8.0,500768,2021-09-01
+135,Sohun Ray,Hillsborough Rotary Fair (8/17-21/2021),4.0,500752,2021-09-01
+136,Rishi Mukherjee,Outreach Tracking Website Prep Work(LEADS ONLY),8.0,501769,2021-09-01
+137,Akash Saha,Outreach Tracking Website Prep Work(LEADS ONLY),3.5,408766,2021-09-01
+138,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2021-09-02
+139,Shilvi Shah,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,502618,2021-09-02
+140,Jamie Cridge,IBM Prep Work(LEADS ONLY),9.0,411081,2021-09-07
+141,Jamie Cridge,IBM Prep Work(LEADS ONLY),2.25,411081,2021-09-07
+142,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),0.5,507048,2021-09-08
+143,Jamie Cridge,Charity Miles Hours(All Summer),1.0,411081,2021-09-08
+144,Jahnave Dadi,Charity Miles Hours(All Summer),1.0,503342,2021-09-08
+145,Dilan Choksi,Hurricane Ida Relief Donations(9/9/2021),1.0,410299,2021-09-09
+146,Victor Ma,Hurricane Ida Relief Donations(9/9/2021),1.0,501939,2021-09-09
+147,Himani Patel,Charity Miles Hours(All Summer),2.0,503235,2021-09-09
+148,Nithika Ramanathan,Hurricane Ida Relief Donations(9/9/2021),1.0,501548,2021-09-10
+149,Himani Patel,Hurricane Ida Relief Donations(9/9/2021),1.0,503235,2021-09-10
+150,Ayush Guhan,Charity Miles Hours(All Summer),7.5,504372,2021-09-11
+151,Siddharth Kumar,Charity Miles Hours(All Summer),1.0,506908,2021-09-11
+152,Siddharth Kumar,Hurricane Ida Relief Donations(9/9/2021),1.0,506908,2021-09-11
+153,Nithika Ramanathan,Charity Miles Hours(All Summer),5.5,501548,2021-09-14
+154,Erik Robuck - Rotary Fair - Part 1,Charity Miles Hours(All Summer),10.0,409906,2021-09-15
+155,Erik Robuck - Rotary Fair - Part 2,Charity Miles Hours(All Summer),5.5,409906,2021-09-15
+156,Kevin Creelman,Charity Miles Hours(All Summer),5.0,409475,2021-09-15
+157,Erik Robuck,Charity Miles Hours(All Summer),6.0,409906,2021-09-15
+158,Erik Robuck - Canceling hours (I did the miles without the app),Charity Miles Hours(All Summer),6.0,409906,2021-09-15
+159,Vishwa Muthuraman,Charity Miles Hours(All Summer),3.0,507048,2021-09-15
+160,Rishab Hari,Charity Miles Hours(All Summer),1.0,409722,2021-09-15
+161,Heny Shah,Stem Kits Prep Work(LEADS ONLY),1.5,501964,2021-09-15
+162,Heny Shah,Charity Miles Hours(All Summer),1.0,501964,2021-09-15
+163,Aayush Patel,Hurricane Ida Relief Donations(9/9/2021),1.0,500286,2021-09-15
+164,Ashley Mathew,WISTEM2D Prep Work(LEADS ONLY),1.0,408608,2021-09-22
+165,Ashley Mathew,WISTEM2D Prep Work(LEADS ONLY),2.0,408608,2021-09-22
+166,Ashley Mathew,WISTEM2D Prep Work(LEADS ONLY),2.5,408608,2021-09-22
+167,Ashley Mathew,WISTEM2D Prep Work(LEADS ONLY),5.0,408608,2021-09-22
+197,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),0.5,507048,2021-09-23
+198,Nithika Ramanathan,Raider Pollinators Prep Work(LEADS ONLY),1.5,501548,2021-10-03
+199,Mahati Salapu,Raider Pollinators Prep Work(LEADS ONLY),1.5,504338,2021-10-06
+200,Rohan Gupta,Charity Miles Hours(All Summer),6.0,503329,2021-10-06
+201,Shehzad Sultan,Charity Miles Hours(All Summer),3.0,507179,2021-10-06
+202,Siddharth Bharani-Dharan,Charity Miles Hours(All Summer),3.0,410246,2021-10-06
+203,Rishi Roy,Charity Miles Hours(All Summer),5.0,409714,2021-10-06
+204,Pooja Kedia,Charity Miles Hours(All Summer),1.0,409987,2021-10-07
+205,Riddhima Medatwal,Charity Miles Hours(All Summer),1.0,507055,2021-10-07
+206,Matthew Tuttle,Charity Miles Hours(All Summer),10.0,410430,2021-10-07
+207,Matthew Tuttle,Charity Miles Hours(All Summer),10.0,410430,2021-10-07
+208,Matthew Tuttle,Charity Miles Hours(All Summer),10.0,410430,2021-10-07
+209,Jamie Cridge,IBM Prep Work(LEADS ONLY),1.0,411081,2021-10-13
+210,Jahnave Dadi,WISE Prep Work(LEADS ONLY),1.0,503343,2021-10-18
+211,Jahnave Dadi,WISE Prep Work(LEADS ONLY),1.0,503342,2021-10-18
+212,Jahnave Dadi,HMS FLL Team mentor volunteering,1.5,503342,2021-10-28
+213,Krish Patel,HMS FLL Team mentor volunteering,2.0,409426,2021-10-28
+214,Sirisha Bansal,HMS FLL Team mentor volunteering,2.0,501595,2021-10-29
+215,Sirisha Bansal,Raider Pollinators Prep Work(LEADS ONLY),2.0,501595,2021-10-29
+216,Jamie Cridge,IBM Prep Work(LEADS ONLY),2.0,411081,2021-11-13
+217,Jamie Cridge,FLL BoroBlast Prep Work(LEADS ONLY),6.0,411081,2021-11-13
+218,Sai Shinde,HMS FLL Team mentor volunteering,10.0,507051,2021-11-16
+219,Sai Shinde,HMS FLL Team mentor volunteering,2.0,507051,2021-11-16
+220,Mahati Salapu,FLL BoroBlast Prep Work(LEADS ONLY),3.0,504338,2021-11-16
+221,Sirisha Bansal,Raider Pollinators Prep Work(LEADS ONLY),1.0,501595,2021-11-20
+222,Jamie Cridge,FLL BoroBlast Prep Work(LEADS ONLY),9.0,411081,2021-11-20
+223,Mahati Salapu,FLL BoroBlast (11/20/2021),10.0,504338,2021-12-01
+224,Mahati Salapu,FLL BoroBlast (11/20/2021),3.0,504338,2021-12-01
+225,Saiabhinav Attinti,FLL BoroBlast (11/20/2021),7.5,502759,2021-12-01
+226,Emily Cao,Safety Prep Work(LEADS ONLY),10.0,410909,2021-12-03
+227,Emily Cao,Boys and Girls Club(11/4/2021),10.0,410909,2021-12-03
+228,Jahnave Dadi,WISE Prep Work(LEADS ONLY),0.5,503342,2021-12-03
+229,Pooja Kedia,FLL BoroBlast (11/20/2021),6.5,409987,2021-12-03
+230,Riddhima Medatwal,HMS FLL Team mentor volunteering,10.0,507055,2021-12-03
+231,Riddhima Medatwal,HMS FLL Team mentor volunteering,10.0,507055,2021-12-03
+232,Riddhima Medatwal,HMS FLL Team mentor volunteering,7.0,507055,2021-12-03
+233,Sirisha Bansal,FLL BoroBlast (11/20/2021),6.0,501595,2021-12-03
+234,Jamie Cridge,Boys and Girls Club(11/4/2021),4.0,411071,2021-12-06
+235,Jamie Cridge,Boys and Girls Club(11/4/2021),4.0,411081,2021-12-06
+236,Vishwa Muthuraman,FLL BoroBlast Prep Work(LEADS ONLY),10.0,507048,2021-12-06
+237,Vishwa Muthuraman,FLL BoroBlast (11/20/2021),8.0,507048,2021-12-06
+238,Derek Geng,Boys and Girls Club(11/4/2021),5.0,502518,2021-12-07
+239,Emily Cao,FLL BoroBlast (11/20/2021),10.0,410909,2021-12-07
+240,Emily Cao,FLL BoroBlast (11/20/2021),10.0,410909,2021-12-07
+241,Emily Cao,FLL BoroBlast (11/20/2021),3.0,410909,2021-12-07
+242,Jamie Cridge,FLL BoroBlast Prep Work(LEADS ONLY),3.5,411081,2021-12-09
+243,Jamie Cridge,FLL BoroBlast (11/20/2021),10.0,411081,2021-12-09
+244,Mahati Salapu,FLL BoroBlast (11/20/2021),10.0,504338,2021-12-09
+245,Jamie Cridge,FLL BoroBlast (11/20/2021),10.0,411081,2021-12-09
+246,Jamie Cridge,FLL BoroBlast (11/20/2021),3.0,411081,2021-12-09
+247,Mahati Salapu,FLL BoroBlast Prep Work(LEADS ONLY),10.0,504338,2021-12-09
+248,Mahati Salapu,FLL BoroBlast Prep Work(LEADS ONLY),9.0,504338,2021-12-09
+249,Nithika Ramanathan,Animal Shelter(12/11/2021),1.0,501548,2021-12-10
+250,Van Nostrand,Animal Shelter(12/11/2021),1.0,409280,2021-12-10
+251,Siddharth Kumar,Food Drive(12/11/2021),1.0,506908,2021-12-10
+252,Srisanjit Addepally,Animal Shelter(12/11/2021),1.0,504335,2021-12-10
+253,Diana Nejand,Animal Shelter(12/11/2021),1.0,500758,2021-12-10
+254,Van Nostrand,Food Drive(12/11/2021),1.0,409280,2021-12-10
+255,Mira Das,WISE Prep Work(LEADS ONLY),1.0,411028,2021-12-11
+256,Mira Das,WISTEM2D Prep Work(LEADS ONLY),1.0,411028,2021-12-11
+257,Hailey Desai,WISE Prep Work(LEADS ONLY),1.0,502636,2021-12-11
+258,Hailey Desai,WISTEM2D Prep Work(LEADS ONLY),1.0,502636,2021-12-11
+259,Anvesh Polamuri,Food Drive(12/11/2021),1.0,501983,2021-12-11
+260,Grace Liu,WISE Prep Work(LEADS ONLY),1.0,410541,2021-12-11
+261,Sai Shinde,WISE Prep Work(LEADS ONLY),1.0,507051,2021-12-11
+262,Grace Liu,WISTEM2D Prep Work(LEADS ONLY),1.0,410541,2021-12-11
+263,Sai Shinde,WISTEM2D Prep Work(LEADS ONLY),1.0,507051,2021-12-11
+264,Rohan Giri,Animal Shelter(12/11/2021),1.0,500768,2021-12-11
+265,Rohan Giri,Food Drive Prep Work(LEADS ONLY),3.0,500768,2021-12-11
+266,Rohan Giri,Food Drive(12/11/2021),1.0,500768,2021-12-11
+267,Rohan Giri,WISTEM2D Prep Work(LEADS ONLY),1.0,500768,2021-12-11
+268,Grace Liu,Food Drive(12/11/2021),1.0,410541,2021-12-11
+269,Alice Liu,Food Drive(12/11/2021),1.0,410540,2021-12-11
+270,Adhithi Rajesh ,Animal Shelter(12/11/2021),6.0,504241,2021-12-11
+271,Srisanjit Addepally,Food Drive(12/11/2021),2.0,504335,2021-12-11
+272,Victor Ma,Food Drive(12/11/2021),1.0,501939,2021-12-11
+273,Ananya Srinivasan,Food Drive(12/11/2021),1.0,504221,2021-12-11
+274,Victor Ma,Animal Shelter(12/11/2021),1.0,501939,2021-12-11
+275,Maharshi Vyas,Food Drive(12/11/2021),1.0,505272,2021-12-11
+276,Henna Desai,Food Drive(12/11/2021),1.0,504451 ,2021-12-11
+277,Shilvi Shah,Food Drive(12/11/2021),1.0,502618,2021-12-11
+278,Shilvi Shah,Outreach Tracking Website Prep Work(LEADS ONLY),0.25,502618,2021-12-11
+279,Alex Cline,Food Drive(12/11/2021),1.0,410163,2021-12-12
+280,Rohan Gupta,Food Drive(12/11/2021),1.0,503329,2021-12-13
+281,Rishab Hari,Food Drive(12/11/2021),1.0,409722,2021-12-13
+282,Rithvik Hari,Food Drive(12/11/2021),1.0,500354,2021-12-14
+283,Ritvik,Food Drive(12/11/2021),1.0,501933,2021-12-14
+284,Kyle Crockett ,Food Drive(12/11/2021),1.0,406622,2021-12-14
+285,Rithvik Hari,Food Drive(12/11/2021),1.0,500353,2021-12-17
+286,Alice Liu,Food Drive(12/11/2021),1.0,410540,2021-12-17
+287,Matthew Goldman,Food Drive(12/11/2021),1.0,500364,2021-12-17
+288,Rishab Hari,Food Drive(12/11/2021),1.0,409722,2021-12-18
+289,Matthew Tuttle,Animal Shelter(12/11/2021),1.0,410430,2021-12-18
+290,Mahati Salapu,Food Drive(12/11/2021),1.0,504338,2021-12-18
+291,Mahati Salapu,FLL State Competition(12/11-12/2021),7.0,504338,2021-12-18
+292,Emily Cao,FLL State Competition(12/11-12/2021),7.0,410909,2021-12-18
+293,Kevin Creelman,Food Drive(12/11/2021),1.0,409475,2021-12-19
+294,Jamie Cridge,Food Drive(12/11/2021),1.0,411081,2021-12-19
+295,Jamie Cridge,Animal Shelter(12/11/2021),1.0,411081,2021-12-19
+296,Jahnave Dadi,WISE Prep Work(LEADS ONLY),3.5,503342,2021-12-30
+297,Shilvi Shah,Executive Member Hours,3.0,502618,2022-01-08
+298,Heny Shah,Stem Kits Prep Work(LEADS ONLY),1.0,501964,2022-01-11
+299,Sai Shinde,Quaransteam Prep Work(LEADS ONLY),7.0,507051,2022-01-18
+300,Sai Shinde,Quaransteam Prep Work(LEADS ONLY),2.0,507051,2022-01-22
+301,Jahnave Dadi,WISE Prep Work(LEADS ONLY),1.0,503342,2022-01-22
+302,Grace Liu,Food Drive Prep Work(LEADS ONLY),2.0,410541,2022-01-22
+303,Aarnav Vyas,Team Website Prep Work(LEADS ONLY),2.0,409464,2022-01-26
+304,Erik Robuck,Outreach Tracking Website Prep Work(LEADS ONLY),2.0,409906,2022-01-26
+305,Srisanjit Addepally,Food Drive (1/22-28/2022),1.0,504335,2022-01-26
+306,Van Nostrand,Food Drive (1/22-28/2022),1.0,409280,2022-01-26
+307,Shilvi Shah,IBM Prep Work(LEADS ONLY),0.5,502618,2022-01-27
+308,Sai Shinde,Quaransteam Prep Work(LEADS ONLY),2.0,507051,2022-01-29
+309,Matthew Goldman,Food Drive (1/22-28/2022),1.0,500364,2022-02-02
+310,Alice Liu,Food Drive (1/22-28/2022),1.0,410540,2022-02-03
+311,Grace Liu,Food Drive (1/22-28/2022),1.0,410541,2022-02-03
+312,Jahnave Dadi,The World of DNA WISE Event (2/6/2022),0.75,503342,2022-02-04
+313,Maharshi Vyas,The World of DNA WISE Event (2/6/2022),0.75,505272,2022-02-05
+314,Rishab Hari,Outreach Tracking Website Prep Work(LEADS ONLY),2.0,409722,2022-02-05
+315,Grace Liu,The World of DNA WISE Event (2/6/2022),0.75,410541,2022-02-06
+316,Maharshi Vyas,The World of DNA WISE Event (2/6/2022),1.95,505272,2022-02-06
+317,Grace Liu,The World of DNA WISE Event (2/6/2022),1.95,410541,2022-02-06
+318,Grace Liu,Homework Help Prep Work (LEADS ONLY),2.5,410541,2022-02-07
+319,Grace Liu,Homework Help Prep Work (LEADS ONLY),2.5,410541,2022-02-07
+320,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),1.0,507048,2022-02-07
+321,Jahnave Dadi,The World of DNA WISE Event (2/6/2022),1.95,503342,2022-02-07
+322,Alexa Gibson,Charity Miles (School year),2.0,500611,2022-02-09
+323,Alexa Gibson,WISE Prep Work(LEADS ONLY),1.95,500611,2022-02-09
+324,Alexa Gibson,The World of DNA WISE Event (2/6/2022),1.95,500611,2022-02-09
+325,Dilan Choksi,Charity Miles (School year),6.0,410299,2022-02-09
+358,Eshaan Debnath,Food Drive (1/22-28/2022),1.0,504506,2022-02-10
+359,Victor Ma,Charity Miles (School year),8.0,501939,2022-02-11
+360,Victor Ma,Food Drive (1/22-28/2022),1.0,501939,2022-02-11
+361,Sai Shinde,IBM Prep Work(LEADS ONLY),1.0,507051,2022-02-12
+362,Mira Das,IBM Prep Work(LEADS ONLY),1.0,411028,2022-02-12
+363,Grace Liu,IBM Prep Work(LEADS ONLY),1.0,410541,2022-02-12
+364,Rohan Giri,Food Drive Prep Work(LEADS ONLY),7.0,500768,2022-02-12
+365,Rohan Giri,WISTEM2D Prep Work(LEADS ONLY),2.0,500768,2022-02-12
+366,Sai Shinde,WISE Prep Work(LEADS ONLY),2.0,507051,2022-02-12
+367,Mira Das,WISTEM2D Prep Work(LEADS ONLY),1.0,411028,2022-02-12
+368,Sai Shinde,WISTEM2D Prep Work(LEADS ONLY),1.0,507051,2022-02-12
+369,Grace Liu,WISE Prep Work(LEADS ONLY),2.0,410541,2022-02-12
+370,Mira Das,WISE Prep Work(LEADS ONLY),2.0,411028,2022-02-12
+371,Rohan Giri,Food Drive (1/22-28/2022),2.0,500768,2022-02-12
+372,Panamgipalli,WISTEM2D Prep Work(LEADS ONLY),2.0,501560,2022-02-12
+373,Grace Liu,WISTEM2D Prep Work(LEADS ONLY),1.0,410541,2022-02-12
+374,Panamgipalli,IBM Prep Work(LEADS ONLY),1.0,501560,2022-02-12
+375,Sai Shinde,The World of DNA WISE Event (2/6/2022),1.0,507051,2022-02-12
+376,Mira Das,The World of DNA WISE Event (2/6/2022),1.0,411028,2022-02-12
+377,Panamgipalli,WISE Prep Work(LEADS ONLY),1.0,501560,2022-02-12
+378,Grace Liu,The World of DNA WISE Event (2/6/2022),1.0,410541,2022-02-12
+379,Panamgipalli,The World of DNA WISE Event (2/6/2022),1.0,501560,2022-02-12
+380,Rio Kuchlyan,Food Drive (1/22-28/2022),1.0,501539,2022-02-13
+381,Jamie Cridge,IBM Prep Work(LEADS ONLY),6.0,411081,2022-02-13
+382,Eunchae Noh,RoboCreators Initiative Prep Work,2.0,502826,2022-02-14
+383,Dylan Liu,Food Drive (1/22-28/2022),1.0,409839,2022-02-15
+384,Kyle Crockett,Charity Miles Prep Work(LEADS ONLY),3.0,406622,2022-02-18
+385,Diana Nejand,Charity Miles (School year),5.0,500758,2022-02-19
+386,Pooja Kedia,Stem Kits Prep Work(LEADS ONLY),1.5,409987,2022-02-22
+387,Sohun Ray,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,500752,2022-02-22
+388,Krish Nambiar,Quaransteam Prep Work(LEADS ONLY),8.0,410678,2022-02-23
+389,Diana Nejand,RoboSmiles Prep Work (Leads Only),3.5,500758,2022-02-23
+390,Krish Nambiar,GSRM Prep Work,8.9,410678,2022-02-24
+391,Grace Liu,Homework Help Prep Work (LEADS ONLY),1.0,410541,2022-02-24
+392,Panamgipalli,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.5,501560,2022-02-24
+393,Srisanjit Addepally,Charity Miles (School year),6.0,504335,2022-02-24
+394,Hailey Desai,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,502636,2022-02-24
+395,Aditya Kalavala,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,505386,2022-02-24
+396,Aryan,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,Acharya,2022-02-24
+397,Alaap Joshi,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,500441,2022-02-24
+398,Nithika Ramanathan,Food Drive (1/22-28/2022),1.0,501548,2022-02-24
+399,Alice Liu,RoboSmiles Prep Work (Leads Only),3.0,410540,2022-02-25
+400,Sameer Masood,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,410549,2022-02-26
+401,Mira Das,GSRM Prep Work,5.5,411028,2022-02-26
+402,Mira Das,GSRM Prep Work,0.5,411028,2022-02-26
+403,Dylan Liu,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,409839,2022-02-26
+404,Nithika Ramanathan,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,501548,2022-02-26
+405,Emily Cao,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.5,410909,2022-02-26
+406,Aarnav Vyas,Team Website Prep Work(LEADS ONLY),6.0,409464,2022-02-28
+407,Diana Nejand,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.5,500758,2022-03-01
+408,Henna Desai,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.5,504451,2022-03-01
+409,Henna Desai,Charity Miles (School year),4.0,504451,2022-03-01
+410,Henna Desai,Food Drive (1/22-28/2022),1.0,504451 ,2022-03-01
+411,Eshaan Debnath,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,504506,2022-03-01
+412,Sohun Ray,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,500752,2022-03-01
+413,Davin Patel ,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,500851,2022-03-01
+414,Aarav Kadakia,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,507214,2022-03-01
+415,Srinath Ayyappan,Food Drive (1/22-28/2022),1.0,501853,2022-03-01
+417,Sohun ray ,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.25,500752,2022-03-01
+418,Sohun ray ,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.25,500752,2022-03-01
+424,Matthew Goldman,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,500364,2022-03-02
+426,Manan patel,Charity Miles (School year),2.0,500377,2022-03-02
+428,Ananya Srinivasan,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,504221,2022-03-02
+429,Pooja Kedia,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,409987,2022-03-02
+430,Tyler Endick,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,408025,2022-03-02
+416,Srinath Ayyappan,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,501853,2022-03-01
+419,Sohun ray,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.25,500752,2022-03-01
+420,Himani Patel,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,503235,2022-03-02
+421,Athithya Gounder,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,504111,2022-03-02
+422,Krish V. Patel,Food Drive (1/22-28/2022),1.0,500546,2022-03-02
+423,Krish V. Patel,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,500546,2022-03-02
+425,Reyhaan Patel,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,503107,2022-03-02
+427,Ashwin Harikumar,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,500641,2022-03-02
+431,Heny Shah,Stem Kits Prep Work(LEADS ONLY),2.0,501964,2022-03-02
+432,Heny Shah,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,501964,2022-03-02
+433,Aidan Patel,Charity Miles (School year),6.0,500463,2022-03-02
+434,Aidan Patel,Charity Miles (School year),3.0,500463,2022-03-02
+435,Tyler Endick,Charity Miles (School year),10.0,408025,2022-03-02
+436,Tyler Endick,Charity Miles (School year),4.0,408025,2022-03-02
+437,Rohan Gupta,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,503329,2022-03-02
+438,Srisanjit Addepally,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.5,504335,2022-03-03
+439,Grace Liu,Homework Help Prep Work (LEADS ONLY),3.0,410541,2022-03-03
+440,Diana Nejand,RoboSmiles Prep Work (Leads Only),1.0,500758,2022-03-04
+441,Krish Nambiar,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,410678,2022-03-04
+442,Jahnave Dadi,WISE Prep Work(LEADS ONLY),3.0,503342,2022-03-05
+443,Rishab Hari,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,409722,2022-03-08
+444,Nishaant Shah,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,408631,2022-03-08
+445,Diana Nejand,Charity Miles (School year),2.0,500758,2022-03-08
+446,Ashwin Harikumar,Food Drive Prep Work(LEADS ONLY),1.0,500641,2022-03-12
+447,Reyhaan Patel,Stem Kits Prep Work(LEADS ONLY),1.0,503107,2022-03-12
+448,Ashwin Harikumar,Charity Miles (School year),6.4,500641,2022-03-12
+449,Reyhaan Patel,Charity Miles (School year),6.4,503107,2022-03-12
+450,Alice Liu ,RoboSmiles Prep Work (Leads Only),1.5,410540,2022-03-12
+451,Diana Nejand,RoboSmiles Prep Work (Leads Only),1.0,500758,2022-03-12
+452,Jamie Cridge,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.05,411081,2022-03-15
+453,Jamie Cridge,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.45,411081,2022-03-15
+454,Kyle Crockett,RoboSmiles - Cards for healthcare workers(2/17-21/2022),1.0,406622,2022-03-15
+455,Aditya Patel,Charity Miles (School year),8.0,507165,2022-03-17
+456,Aditya Patel,RoboSmiles - Cards for healthcare workers(2/17-21/2022),2.0,507165,2022-03-17
+457,Grace Liu,RoboSmiles - Cards for healthcare workers(2/17-21/2022),0.25,410541,2022-03-17
+458,Victor Ma,Charity Miles (School year),4.0,501939,2022-03-18
+459,Victor Ma,Charity Miles (School year),4.0,501939,2022-03-18
+460,Adhithi Rajesh,STEM Summit Prep Work (Leads Only),1.0,504241,2022-03-19
+461,Diana Nejand,RoboSmiles Prep Work (Leads Only),2.0,500758,2022-03-19
+462,Alice Liu,RoboSmiles Prep Work (Leads Only),2.0,410540,2022-03-19
+463,Nithika Ramanathan,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,501548,2022-03-21
+464,Jamie Cridge,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,411081,2022-03-22
+465,Erik Robuck,RoboSmiles Easter Event (3/19/2022-4/5/2022),0.5,409906,2022-03-22
+466,Lizaveta Khalipava,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,508623,2022-03-22
+467,Reyhaan Patel,STEM Summit (3/26/2022),1.0,503107,2022-03-22
+468,Milaap Gupta,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,503313,2022-03-22
+469,Matthew Goldman,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500364,2022-03-22
+470,Manan patel,STEM Summit (3/26/2022),1.0,500377,2022-03-22
+471,Milaap Gupta,RoboSmiles Prep Work (Leads Only),2.0,503313,2022-03-22
+472,Ashwin Harikumar,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500641,2022-03-22
+473,Reyhaan Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,503107,2022-03-22
+474,Krish V. Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500546,2022-03-22
+475,Kyle Crockett,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,406622,2022-03-22
+476,Eunchae Noh,RoboCreators Initiative Prep Work,8.0,502826,2022-03-22
+477,Himani Patel,RoboCreators Initiative Prep Work,6.0,503235,2022-03-22
+478,Himani Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,503235,2022-03-22
+479,Himani Patel,Stem Kits Prep Work(LEADS ONLY),1.0,503235,2022-03-22
+480,Van Nostrand,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,409280,2022-03-23
+481,Emily Cao,RoboCreators Initiative Prep Work,10.0,410909,2022-03-23
+482,Emily Cao,RoboCreators Initiative Prep Work,5.0,410909,2022-03-23
+483,Srisanjit Addepally,STEM Summit Prep Work (Leads Only),1.0,504335,2022-03-24
+484,Grace Liu,Homework Help Prep Work (LEADS ONLY),2.0,410541,2022-03-24
+485,Diana Nejand,Charity Miles (School year),1.0,500758,2022-03-24
+486,Siddharth Kumar,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,506908,2022-03-25
+487,Shilvi Shah,STEM Summit (3/26/2022),3.0,502618,2022-03-26
+488,Shilvi Shah,STEM Summit Prep Work (Leads Only),10.0,502618,2022-03-26
+489,Srisanjit Addepally,STEM Summit Prep Work (Leads Only),0.5,504335,2022-03-26
+490,Srisanjit Addepally,STEM Summit (3/26/2022),3.0,504335,2022-03-26
+491,Emily Cao,STEM Summit (3/26/2022),3.5,410909,2022-03-26
+492,Derek Geng,STEM Summit (3/26/2022),3.0,502518,2022-03-26
+493,Mira Das,STEM Summit (3/26/2022),3.0,411028,2022-03-26
+494,Pooja Kedia,STEM Summit (3/26/2022),3.5,409987,2022-03-26
+495,Sai Shinde,STEM Summit Prep Work (Leads Only),1.5,507051,2022-03-26
+496,Sai Shinde,STEM Summit (3/26/2022),3.0,507051,2022-03-26
+497,Alice Liu ,STEM Summit (3/26/2022),3.0,410540,2022-03-26
+498,Alice Liu ,STEM Summit (3/26/2022),4.0,410540,2022-03-26
+499,Siddharth Kumar,STEM Summit (3/26/2022),3.0,506908,2022-03-26
+500,Rohan Gupta,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,503329,2022-03-26
+501,Rio Kuchlyan,STEM Summit (3/26/2022),3.0,501539,2022-03-26
+502,Rio Kuchlyan,STEM Summit Prep Work (Leads Only),1.0,501539,2022-03-26
+503,Krish Nambiar,STEM Summit (3/26/2022),4.0,410678,2022-03-27
+504,Rio Kuchlyan,St. Jude Donation Drive,1.0,501539,2022-03-27
+505,Victor Ma,St. Jude Donation Drive,1.0,501939,2022-03-27
+506,Diana Nejand,STEM Summit (3/26/2022),3.0,500758,2022-03-27
+507,Srikar Srinivasan,St. Jude Donation Drive,1.0,501571,2022-03-28
+508,Lizaveta Khalipava,STEM Summit (3/26/2022),3.0,508623,2022-03-28
+509,Lizaveta Khalipava,Crocheting Initiative,9.0,508623,2022-03-28
+510,Hailey D,STEM Summit (3/26/2022),3.0,502636,2022-03-28
+511,Aditya Kalavala,STEM Summit (3/26/2022),0.5,505386,2022-03-28
+512,Rohan Giri,Food Drive Prep Work(LEADS ONLY),4.0,500768,2022-03-29
+513,Rohan Giri,St. Jude Donation Drive,1.0,500768,2022-03-29
+514,Rohan Giri,Food Drive Prep Work(LEADS ONLY),2.0,500768,2022-03-29
+515,Rohan Giri,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500768,2022-03-29
+516,Van Nostrand,St. Jude Donation Drive,1.0,409280,2022-03-29
+517,Sonia Ray,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500773,2022-03-29
+518,Grace Liu,Crocheting Initiative,10.0,410541,2022-03-29
+519,Diana Nejand,Crocheting Initiative,1.0,500758,2022-03-29
+520,Sonia Ray,Charity Miles (School year),1.5,500773,2022-03-29
+521,Victor Ma,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,501939,2022-03-30
+522,Diana Nejand,St. Jude Donation Drive,2.0,500758,2022-03-30
+523,Hannah So,Crocheting Initiative,1.0,503323,2022-03-30
+524,Hannah So,STEM Summit (3/26/2022),3.0,503323,2022-03-30
+525,Hannah So,STEM Summit Prep Work (Leads Only),0.5,503323,2022-03-30
+526,Aryan Acharya ,STEM Summit (3/26/2022),3.0,506007,2022-03-30
+527,Aarav Kadakia,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,507214,2022-03-31
+528,Alice Liu ,St. Jude Donation Drive,1.0,410540,2022-03-31
+529,Aarav Kadakia,Charity Miles (School year),9.0,507214,2022-03-31
+530,Nikhil Singh,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,505135,2022-03-31
+531,Hannah So,RoboSmiles Easter Event (3/19/2022-4/5/2022),2.0,503323,2022-03-31
+532,Alaap joshi,STEM Summit (3/26/2022),4.0,500441,2022-03-31
+533,Alaap joshi,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500441,2022-03-31
+534,Aryan Acharya,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,506007,2022-03-31
+535,Parth Wadekar,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,507062,2022-03-31
+536,Parth Wadekar,Food Drive Prep Work(LEADS ONLY),1.0,507062,2022-04-01
+537,Mahati Salapu,STEM Summit (3/26/2022),2.5,504338,2022-04-01
+538,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),2.0,507048,2022-04-05
+539,Vishwa Muthuraman,Charity Miles (School year),2.0,507048,2022-04-05
+540,Ananya Srinivasan,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,504221,2022-04-06
+541,Ananya Srinivasan,Crocheting Initiative,1.5,504221,2022-04-06
+542,Henna Desai,RoboCreators Initiative Prep Work,4.0,504451,2022-04-06
+543,Henna Desai,STEM Summit (3/26/2022),3.0,504451,2022-04-06
+544,Henna Desai,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,504451,2022-04-06
+575,Jahnave Dadi,WISE Prep Work(LEADS ONLY),0.5,503342,2022-04-09
+576,Lizaveta Khalipava,Crocheting Initiative,5.0,508623,2022-04-09
+577,Krish Nambiar,WISE Prep Work(LEADS ONLY),2.5,410678,2022-04-13
+578,Krish Nambiar,GSRM Prep Work,2.5,410678,2022-04-13
+579,Nithika Ramanathan,Raider Pollinators Prep Work(LEADS ONLY),1.0,501548,2022-04-13
+580,Heny Shah,Crocheting Initiative,1.0,501964,2022-04-19
+581,Heny Shah,STEM Summit Prep Work (Leads Only),1.0,501964,2022-04-19
+582,Heny Shah,Charity Miles (School year),6.0,501964,2022-04-19
+583,Heny Shah,RoboSmiles Easter Event (3/19/2022-4/5/2022),2.0,501964,2022-04-19
+584,Jahnave Dadi,Charity Miles (School year),6.0,503342,2022-04-19
+585,Henna Desai,Charity Miles (School year),0.5,504451,2022-04-19
+586,Shravan Prasanth,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500594,2022-04-19
+587,Manan patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),2.0,500377,2022-04-19
+588,Aidan Patel,Crocheting Initiative,1.5,500463,2022-04-19
+589,Aidan Patel,Charity Miles (School year),1.5,500463,2022-04-19
+590,Aidan Patel,Charity Miles (School year),1.5,500463,2022-04-19
+591,Krish Nambiar,Charity Miles (School year),2.0,410678,2022-04-19
+592,Pooja Kedia,Stem Kits Prep Work(LEADS ONLY),1.5,409987,2022-04-20
+593,Pooja Kedia,Stem Kits Prep Work(LEADS ONLY),1.5,409987,2022-04-20
+594,Diana Nejand,Charity Miles (School year),3.0,500758,2022-04-21
+595,Tyler Endick,Charity Miles (School year),4.0,408025,2022-04-21
+596,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),4.0,507048,2022-04-23
+597,E,Crocheting Initiative,0.2,584914,2022-04-24
+598,Dhruv Jampa,RoboSmiles Easter Event (3/19/2022-4/5/2022),3.0,507189,2022-04-26
+599,Diana Nejand,RoboSmiles Prep Work (Leads Only),2.5,500758,2022-04-26
+600,Krish Nambiar,Charity Miles (School year),1.0,410678,2022-04-27
+601,Srinath Ayyappan,Charity Miles (School year),6.5,501853,2022-04-30
+634,Eshaan Debnath,Outreach Tracking Website Prep Work(LEADS ONLY),10.0,504506,2022-05-02
+635,Eshaan Debnath,Outreach Tracking Website Prep Work(LEADS ONLY),3.25,504506,2022-05-02
+636,Eshaan Debnath,Outreach Tracking Website Prep Work(LEADS ONLY),3.25,504506,2022-05-02
+637,Eshaan Debnath,Outreach Tracking Website Prep Work(LEADS ONLY),6.75,504506,2022-05-02
+638,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),4.0,507048,2022-05-02
+639,Eshaan Debnath,Field Day Help (4/30/2022),0.5,504506,2022-05-02
+640,Aditya Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),3.0,507165,2022-05-02
+641,Aditya Patel,Charity Miles (School year),8.0,507165,2022-05-02
+642,Ajay Desai,Field Day Help (4/30/2022),0.5,500688,2022-05-02
+643,Vishwa Muthuraman,Field Day Help (4/30/2022),0.5,507048,2022-05-02
+644,Rithvik Hari,ShopRite Bagging Initiative(4/16/2022),3.0,500353,2022-05-02
+645,Nithika Ramanathan,Field Day Help (4/30/2022),0.5,501548,2022-05-02
+646,Arnav Chaudhary,Field Day Help (4/30/2022),0.5,507207,2022-05-02
+647,Emily Cao,Field Day Help (4/30/2022),0.5,410909,2022-05-02
+648,Van Nostrand,Field Day Help (4/30/2022),0.5,409280,2022-05-02
+649,Jamie Cridge,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,411081,2022-05-04
+650,Krish Nambiar,Charity Miles (School year),1.0,410678,2022-05-04
+651,Krish Nambiar,Field Day Help (4/30/2022),0.5,410678,2022-05-04
+652,Diana Nejand,Field Day Help (4/30/2022),0.5,500758,2022-05-04
+653,Diana Nejand,RoboSmiles Prep Work (Leads Only),2.5,500758,2022-05-04
+654,Hannah So,Field Day Help (4/30/2022),0.5,503323,2022-05-05
+655,Hannah So,Charity Miles (School year),1.0,503323,2022-05-05
+656,Hannah So,Charity Miles (School year),3.0,503323,2022-05-05
+657,Alice Liu ,ShopRite Bagging Initiative(4/16/2022),3.0,410540,2022-05-06
+658,Alice Liu ,Field Day Help (4/30/2022),1.0,410540,2022-05-06
+659,Alice Liu ,RoboSmiles Prep Work (Leads Only),3.0,410540,2022-05-06
+660,Arnav Chaudhary,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),2.5,507207,2022-05-07
+661,Vishwa Muthuraman,Outreach Tracking Website Prep Work(LEADS ONLY),2.0,507048,2022-05-07
+662,Rishab Hari,Field Day Help (4/30/2022),0.5,409722,2022-05-09
+663,Rishab Hari,ShopRite Bagging Initiative(4/16/2022),3.0,409722,2022-05-09
+664,Mahati Salapu,ShopRite Bagging Initiative(4/16/2022),3.0,504338,2022-05-10
+665,Tyler,Field Day Help (4/30/2022),1.0,408025,2022-05-10
+666,Tyler Endick,ShopRite Bagging Initiative(4/16/2022),3.0,408025,2022-05-10
+667,Tyler Endick,Charity Miles (School year),2.0,408025,2022-05-10
+668,Tyler Endick,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),1.0,408025,2022-05-10
+669,Rohan Gupta,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,503329,2022-05-11
+670,Milaap Gupta,ShopRite Bagging Initiative(4/16/2022),4.0,503313,2022-05-12
+671,Ashwin Harikumar,ShopRite Bagging Initiative(4/16/2022),4.0,500641,2022-05-12
+672,Aidan Patel,Charity Miles (School year),1.0,500463,2022-05-13
+673,Krish Nambiar,Charity Miles (School year),1.0,410678,2022-05-14
+674,Mahati Salapu,STEM through Gaming,3.0,504338,2022-05-15
+675,Mahati Salapu,STEM through Gaming,10.0,504338,2022-05-15
+676,Mahati Salapu,STEM through Gaming,4.0,504338,2022-05-15
+677,Maharshi Vyas,STEM through Gaming,3.0,505272,2022-05-15
+678,Rithvik Hari,Field Day Help (4/30/2022),0.5,500353,2022-05-16
+679,Diana Nejand,STEM through Gaming,3.5,500758,2022-05-17
+680,Aarya Chaudhari,Charity Miles (School year),10.0,500866,2022-05-17
+681,Aarya Chaudhari,Charity Miles (School year),5.0,500866,2022-05-17
+682,Srisanjit Addepally,Hour of Code Initiative (Prep Hours),3.5,504335,2022-05-17
+683,Srisanjit Addepally,Charity Miles (School year),7.0,504335,2022-05-17
+684,Nithika Ramanathan,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),0.5,501548,2022-05-17
+685,Henna Desai,STEM Summit (3/26/2022),3.0,504451,2022-05-17
+686,Henna ,Charity Miles (School year),2.5,504451,2022-05-17
+687,Himani Patel,Charity Miles (School year),10.0,503235,2022-05-17
+688,Himani Patel,Charity Miles (School year),7.0,503235,2022-05-17
+689,Pooja Kedia,Stem Kits Prep Work(LEADS ONLY),2.0,409987,2022-05-17
+690,Adhithi Rajesh,Stem Kits Prep Work(LEADS ONLY),2.0,504241,2022-05-17
+691,Alice Liu ,STEM through Gaming,3.5,410540,2022-05-17
+692,Alice Liu,RoboSmiles Prep Work (Leads Only),2.0,410540,2022-05-17
+693,Siddharth Kumar,ShopRite Bagging Initiative(4/16/2022),3.0,506908,2022-05-18
+694,Siddharth Kumar,STEM through Gaming,3.5,506908,2022-05-18
+695,Krish Nambiar,STEM through Gaming,3.5,410678,2022-05-18
+696,Hannah So,Charity Miles (School year),1.0,503323,2022-05-19
+697,Sonia Ray,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),3.0,500773,2022-05-19
+698,Grace Liu,Homework Help Prep Work (LEADS ONLY),3.0,410541,2022-05-19
+699,Jahnave Dadi,WISE Prep Work(LEADS ONLY),1.0,503342,2022-05-19
+700,Jahnave Dadi,Charity Miles (School year),3.0,503342,2022-05-19
+701,Rishab Hari,Charity Miles Prep Work(LEADS ONLY),2.0,409722,2022-05-19
+702,Rishab Hari,HES STEM Fair (5/20/22),3.5,409722,2022-05-19
+703,Rishab Hari,Charity Miles (School year),8.0,409722,2022-05-19
+704,Ajay Desai,Charity Miles (School year),10.0,500688,2022-05-19
+705,Ajay Desai,Charity Miles (School year),7.0,500688,2022-05-19
+706,Aditya Kalavala,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),1.5,505386,2022-05-19
+707,Rohan Gupta,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),1.0,503329,2022-05-22
+708,Rohan Gupta,Charity Miles (School year),10.0,503329,2022-05-22
+709,Srinath Ayyappan,Charity Miles (School year),2.0,501853,2022-05-22
+710,Sameer Masood,ARSHA Harlem Wizards Volunteering (5/21/2022),5.0,410549,2022-05-23
+711,Sameer Masood,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),3.0,410549,2022-05-23
+712,Tyler Endick,ARSHA Harlem Wizards Volunteering (5/21/2022),5.0,408025,2022-05-23
+713,Davin Patel,ARSHA Harlem Wizards Volunteering (5/21/2022),6.0,500851,2022-05-23
+714,Davin Patel,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),2.0,500851,2022-05-23
+715,Davin Patel ,Charity Miles (School year),10.0,500851,2022-05-23
+716,Srisanjit Addepally,ARSHA Harlem Wizards Volunteering (5/21/2022),5.0,504335,2022-05-23
+717,Krish Patel,ARSHA Harlem Wizards Volunteering (5/21/2022),6.0,500546,2022-05-24
+718,Krish Nambiar,ARSHA Harlem Wizards Volunteering (5/21/2022),4.5,410678,2022-05-24
+719,Davin Patel,Charity Miles (School year),5.0,500851,2022-05-24
+720,Davin Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),1.0,500851,2022-05-24
+721,Davin Patel,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),1.0,500851,2022-05-24
+722,Maharshi Vyas,ARSHA Harlem Wizards Volunteering (5/21/2022),5.0,505272,2022-05-24
+723,Maharshi Vyas,GSRM Prep Work,10.0,505272,2022-05-24
+724,Maharshi Vyas,GSRM Prep Work,4.0,505272,2022-05-24
+725,Aidan Patel,ARSHA Harlem Wizards Volunteering (5/21/2022),6.0,500463,2022-05-24
+726,Milan Patel,RoboSmiles Teacher's Appreciation Cards (5/1-7/2022),3.0,500404,2022-05-24
+727,Milan Patel,Charity Miles (School year),8.5,500404,2022-05-24
+728,Milan Patel,RoboSmiles Easter Event (3/19/2022-4/5/2022),3.0,500404,2022-05-24
