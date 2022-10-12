@@ -11,6 +11,7 @@ class VolunteerForm(FlaskForm):
 
     event = SelectField("Select which event you attended",
                  choices=[
+                            ('STEM Library Event', 'STEM Library Event'),
                             # ('Chromebook Distribution', 'Chromebook Distribution'),
                             # ('Rotary Fair', 'Rotary Fair'),
                             # ('4H Fair', '4H Fair'),
@@ -30,7 +31,8 @@ class VolunteerForm(FlaskForm):
                             ('Charity Miles (School year)','Charity Miles (School year)'),
                             # ('Homework Help (School Year)','Homework Help (School Year)'),
 
-                            ('Board of Education Prep', 'Board of Education Prep'),
+                            ('STEM Library Event Prep', 'STEM Library Event Prep'),
+                            # ('Board of Education Prep', 'Board of Education Prep'),
                             ('FLL Prep Work', 'FLL Prep Work'),
                             ('RVSTS Prep Work','RVSTS Prep Work'),
                             # ('Executive Member Hours','Executive Member Hours'),
