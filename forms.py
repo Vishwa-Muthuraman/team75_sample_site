@@ -18,7 +18,7 @@ class VolunteerForm(FlaskForm):
                             # ('FTC', 'FTC'),
                             # ('STEM Library Event', 'STEM Library Event'),
                             # ('Chromebook Distribution', 'Chromebook Distribution'),
-                            # ('Rotary Fair', 'Rotary Fair'),
+                            ('Rotary Fair', 'Rotary Fair'),
                             # ('4H Fair', '4H Fair'),
                             # ('IBM Event', 'IBM Event'),
                             # ('RVSTS','RVSTS'),
