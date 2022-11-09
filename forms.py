@@ -21,7 +21,7 @@ class VolunteerForm(FlaskForm):
                             ('Rotary Fair', 'Rotary Fair'),
                             # ('4H Fair', '4H Fair'),
                             # ('IBM Event', 'IBM Event'),
-                            # ('RVSTS','RVSTS'),
+                            ('RVSTS','RVSTS'),
                             # ('ARSHA Harlem Wizards Volunteering (5/21/2022)','ARSHA Harlem Wizards Volunteering (5/21/2022)'),
                             # ('STEM through Gaming','STEM through Gaming'),
                             # ('HES STEM Fair (5/20/22)','HES STEM Fair (5/20/22)'),
