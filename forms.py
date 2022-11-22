@@ -19,7 +19,7 @@ class VolunteerForm(FlaskForm):
                             ('RoboSmiles Thanksgiving Cards (10/20-11/10)', 'RoboSmiles Thanksgiving Cards (10/20-11/10)'),
                             ('FTC', 'FTC'),
                             # ('STEM Library Event', 'STEM Library Event'),
-                            # ('Chromebook Distribution', 'Chromebook Distribution'),
+                            ('Chromebook Distribution', 'Chromebook Distribution'),
                             ('Rotary Fair', 'Rotary Fair'),
                             # ('4H Fair', '4H Fair'),
                             # ('IBM Event', 'IBM Event'),
